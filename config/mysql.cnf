@@ -1,0 +1,49 @@
+[mysqld]
+
+########################
+# Identity & Paths
+########################
+user = harsh
+port = 3310
+
+basedir = /db1/myserver/mysql/mysql_files/mysql
+datadir = /db1/myserver/mysql/data
+tmpdir  = /db1/myserver/mysql/tmp
+
+socket   = /db1/myserver/mysql/run/mysql.sock
+pid-file = /db1/myserver/mysql/run/mysql.pid
+
+########################
+# Time Zone
+########################
+default-time-zone = '+05:30'
+
+########################
+# Logging
+########################
+
+# Error log (includes startup and shutdown messages)
+log-error = /db1/myserver/mysql/logs/error.log
+
+# General query log (INTENTIONALLY ENABLED)
+# Logs every connection and every statement
+general_log = ON
+general_log_file = /db1/myserver/mysql/logs/general.log
+
+# Slow query log
+slow_query_log = ON
+slow_query_log_file = /db1/myserver/mysql/logs/slow.log
+long_query_time = 1
+
+
+########################
+# Character Set
+########################
+character-set-server = utf8mb4
+collation-server = utf8mb4_unicode_ci
+
+
+########################
+# Safety & Sanity
+########################
+skip-symbolic-links
