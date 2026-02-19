@@ -1,0 +1,12 @@
+# ==============================================
+# Database Nightly Lifecycle Orchestration
+# ==============================================
+
+# MySQL Lifecycle (00:00 A.M.)
+0 0 * * * /db1/myserver/mysql/scripts/run-mysql-lifecycle.sh
+
+# MariaDB Lifecycle (00:15 A.M.)
+15 0 * * * /db1/myserver/mariadb/scripts/run-mariadb-lifecycle.sh
+
+# PostgreSQL Lifecycle (00:30 A.M.)
+30 0 * * * /db1/myserver/postgresql/scripts/run-postgresql-lifecycle.sh
