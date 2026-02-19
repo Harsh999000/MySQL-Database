@@ -1,8 +1,8 @@
 # MySQL Database Server – Manual Linux Setup
 
-This project documents a manually configured MySQL server running on Debian Linux with a structured automation and logging lifecycle.
+This project documents a manually configured MySQL server running on Debian Linux with a deterministic automation and logging lifecycle.
 
-The system is built as a learning-focused infrastructure project with production-style discipline.
+The system is built as a learning-focused infrastructure project, applying production-style operational discipline on a local server environment.
 
 ---
 
@@ -12,37 +12,85 @@ This server includes:
 
 - Dedicated MySQL instance (port 3310)
 - Manual service control scripts (start / stop / status)
-- Automated backup process
-- Deterministic log rotation
-- Log sanitization
-- Retention-based log cleanup
-- Controlled GitHub archival of logs
-- Cron-based execution pipeline
+- Master lifecycle orchestration script
+- Automated nightly database backup
+- Deterministic log rotation (date-based format)
+- Log sanitization before archival
+- Retention-based log cleanup policy
+- Controlled GitHub archival of rotated logs
+- Cron-based lifecycle scheduling
+- Strict isolation from MariaDB and PostgreSQL instances
 
-Logs from other internal projects are stored and version-controlled here for long-term archival.
-
----
-
-## Daily Automation Flow
-
-12:01 A.M – Backup MySQL database
-12:02 A.M – Rotate logs
-12:03 A.M – Flush logs
-12:04 A.M – Sanitize logs
-12:05 A.M – Delete old logs (retention policy)
-12:06 A.M – Auto-push logs to GitHub
+Logs from other internal projects are stored and archived here using a structured append-only model.
 
 ---
 
-## Design Principles
+## Nightly Lifecycle Execution
 
-- Full isolation from MariaDB instance
-- Dedicated port, socket, PID, and data directory
-- PID-file-based process management (no pgrep collisions)
-- Append-only GitHub log archival
-- Logs ignored by default via `.gitignore`
-- Explicit forced-add for controlled log uploads
-- Clear separation between runtime server directory and Git-controlled directory
+The entire MySQL maintenance workflow is orchestrated by a single master script:
+
+run-mysql-lifecycle.sh
+
+This script executes all steps sequentially. If any step fails, execution stops immediately.
+
+### Execution Window
+
+MySQL lifecycle runs daily at:
+
+00:00 A.M.
+
+Other database families (MariaDB and PostgreSQL) are staggered to prevent I/O contention.
+
+---
+
+## Lifecycle Flow (Sequential)
+
+1. Backup MySQL database  
+2. Rotate logs to dated format  
+3. Flush MySQL logs  
+4. Sanitize logs  
+5. Apply retention cleanup policy  
+6. Force-add and push rotated logs to GitHub  
+
+All steps execute in strict order using controlled chaining.
+
+---
+
+## Log Lifecycle Design
+
+Active Logs:
+- general.log  
+- error.log  
+- slow.log  
+
+After rotation:
+- general-YYYY-MM-DD.log  
+- error-YYYY-MM-DD.log  
+- slow-YYYY-MM-DD.log  
+
+Retention Policy:
+- GitHub logs: append-only archival model
+- Local rotated logs: 14-day retention
+- Cron logs: 14-day retention
+
+Log files are ignored by default via `.gitignore`.  
+They are explicitly force-added during controlled archival.
+
+---
+
+## Isolation Principles
+
+This MySQL instance is fully isolated from other database systems by:
+
+- Dedicated port (3310)
+- Dedicated socket file
+- Dedicated PID file
+- Dedicated data directory
+- Dedicated log directory
+- PID-file-based process management
+- No process-name-based killing (no pgrep collisions)
+
+Each database family has its own lifecycle window.
 
 ---
 
@@ -50,8 +98,19 @@ Logs from other internal projects are stored and version-controlled here for lon
 
 - Debian Linux
 - Manual MySQL installation (no systemd dependency)
-- Cron-based automation
-- Local development + server laptop architecture
+- Cron-based orchestration
+- Local server laptop (non-public environment)
+
+---
+
+## Design Philosophy
+
+- Deterministic execution order
+- Sequential orchestration via master lifecycle script
+- Resource-window staggering between database families
+- Append-only archival strategy in GitHub
+- Clear separation between runtime directory (/db1/myserver/mysql) and source-controlled directory (/db1/github/mysql)
+- Infrastructure built for learning with production-grade discipline
 
 ---
 
@@ -59,7 +118,7 @@ Logs from other internal projects are stored and version-controlled here for lon
 
 This repository serves as:
 
-- A learning infrastructure project
-- A structured MySQL server implementation
-- A logging and automation architecture reference
-- A foundation for future production-style hardening
+- A hands-on infrastructure engineering project
+- A structured MySQL server implementation reference
+- A demonstration of database lifecycle automation
+- A foundation for future hardening (secrets management, monitoring, alerting, remote exposure controls)
