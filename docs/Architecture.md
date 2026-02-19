@@ -2,30 +2,58 @@
 
 This document describes the automated operational lifecycle of the MySQL server instance running on the server laptop.
 
-The system is designed for deterministic daily execution and clean separation of responsibilities.
+The system is designed for deterministic daily execution, strict isolation from other database systems, and controlled lifecycle orchestration via a master script.
 
 ---
 
-## Daily Automation Schedule
+## Execution Model
 
-All operations are executed sequentially starting at 12:01 A.M.
+All maintenance operations are executed by a single master orchestration script:
+
+`run-mysql-lifecycle.sh`
+
+This script runs once daily and executes all maintenance steps sequentially.  
+If any step fails, execution stops immediately.
+
+MySQL lifecycle execution time:
+
+00:00 A.M.
+
+Other database systems (MariaDB and PostgreSQL) are staggered to prevent disk I/O contention.
 
 ---
 
-### 12:01 A.M – Backup MySQL Database
+## Nightly Lifecycle Flow (Sequential Execution)
+
+The following steps are executed in strict order:
+
+1. Backup MySQL Database  
+2. Rotate Logs  
+3. Flush Logs  
+4. Sanitize Logs  
+5. Delete Logs (Retention Policy)  
+6. Auto Push Logs to GitHub  
+
+Each step must complete successfully before the next begins.
+
+---
+
+## Step Details
+
+### Backup MySQL Database
 
 Script: `backup-mysql.sh`
 
 **Purpose:**
 - Creates a full backup of MySQL database data.
 - Ensures recoverability in case of corruption or failure.
-- Backup is stored in designated backup directory.
+- Backup is stored in a designated backup directory.
 
 This step protects database data before any log manipulation begins.
 
 ---
 
-### 12:02 A.M – Rotate Logs
+### Rotate Logs
 
 Script: `rotate-logs-mysql.sh`
 
@@ -39,16 +67,17 @@ Script: `rotate-logs-mysql.sh`
   - `general.log`
   - `error.log`
   - `slow.log`
-- Copies rotated logs to GitHub logs directory for archival.
+- Copies rotated logs to GitHub logs directory.
 
 This ensures:
 - Daily log separation
-- Clean lifecycle management
-- Compatibility with retention policy
+- Predictable log lifecycle
+- Compatibility with retention rules
+- Clean archival boundaries
 
 ---
 
-### 12:03 A.M – Flush Logs
+### Flush Logs
 
 Script: `flush-logs-mysql.sh`
 
@@ -61,74 +90,102 @@ This guarantees correct log rotation behavior.
 
 ---
 
-### 12:04 A.M – Sanitize Logs
+### Sanitize Logs
 
 Script: `sanitize-logs-mysql.sh`
 
 **Purpose:**
 - Removes sensitive or unnecessary information from logs.
 - Cleans entries before archival.
-- Ensures logs are safe for long-term storage and version control.
+- Ensures logs are safe for version control and long-term storage.
 
-This step protects sensitive data before pushing to GitHub.
+This step protects sensitive data before GitHub archival.
 
 ---
 
-### 12:05 A.M – Delete Logs (Retention Policy)
+### Delete Logs (Retention Policy)
 
 Script: `delete-logs-mysql.sh`
 
 **Retention Rules:**
 
 - GitHub logs directory:
-  - Delete logs older than 7 days (local copy only).
+  - Rotated logs older than 7 days are deleted locally.
 - Internal MySQL rotated logs:
-  - Delete logs older than 14 days.
+  - Deleted after 14 days.
 - Cron execution logs:
-  - Delete logs older than 14 days.
+  - Deleted after 14 days.
 
 Active logs (`general.log`, `error.log`, `slow.log`) are never deleted.
 
-This enforces controlled storage usage.
+This enforces controlled disk usage while preserving archival integrity.
 
 ---
 
-### 12:06 A.M – Auto Push Logs to GitHub
+### Auto Push Logs to GitHub
 
 Script: `auto-push-logs-mysql.sh`
 
 **Purpose:**
 - Force-adds rotated log files (ignored by default via `.gitignore`).
-- Commits new logs only.
+- Commits only new log files.
 - Does not stage deletions.
 - Pushes updates to remote GitHub repository.
 
 Important:
+
 - Deleted local logs do NOT get deleted from GitHub.
-- GitHub acts as append-only archive.
+- GitHub functions as an append-only archive.
+- Runtime logs remain ignored unless explicitly added.
+
+---
+
+## Log Lifecycle Model
+
+Active Logs:
+- `general.log`
+- `error.log`
+- `slow.log`
+
+Rotated Logs:
+- `general-YYYY-MM-DD.log`
+- `error-YYYY-MM-DD.log`
+- `slow-YYYY-MM-DD.log`
+- `startup-YYYY-MM-DD.log`
+
+Logs are:
+
+- Rotated daily
+- Retained locally for controlled duration
+- Archived append-only to GitHub
 
 ---
 
 ## Isolation Principles
 
-This MySQL instance is fully isolated from MariaDB instance by:
+This MySQL instance is fully isolated from MariaDB and PostgreSQL instances by:
 
 - Dedicated port (3310)
 - Dedicated socket file
 - Dedicated PID file
 - Dedicated data directory
 - Dedicated log directory
-- PID-file-based process management (no pgrep usage)
+- PID-file-based process management
+- No process-name-based termination (no pgrep collisions)
+- Separate lifecycle execution window
 
-This prevents cross-instance interference.
+This prevents cross-instance interference and ensures safe coexistence.
 
 ---
 
 ## Design Philosophy
 
-- Deterministic execution order
+- Deterministic sequential execution
+- Single orchestration entry point
 - Strict process isolation
-- Clear log lifecycle
-- Retention policy enforcement
+- Explicit log lifecycle management
+- Controlled retention enforcement
 - Append-only archival strategy in GitHub
-- Safe automation via cron scheduling
+- Clear separation between runtime server directory and Git-controlled repository
+
+The architecture is intentionally designed to simulate production-grade operational discipline in a local learning environment.
