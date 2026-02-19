@@ -1,0 +1,177 @@
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+# Time: PHONE_REDACTEDT07:PORT:PORT.459263Z
+# User@Host: app_user[app_user] @ DESKTOP-1PIC86U [xxx.xxx.xxx.xxx]  Id:    60
+# Query_time: 5.610381  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+use high_level_project;
+SET timestamp=PHONE_REDACTED;
+# administrator command: Quit;
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+# Time: PHONE_REDACTEDT15:PORT:PORT.723682Z
+# User@Host: lead_lab_app_user[lead_lab_app_user] @  [xxx.xxx.xxx.xxx]  Id:   276
+# Query_time: 6.412984  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 1
+use lead_lab;
+SET timestamp=PHONE_REDACTED;
+# administrator command: Quit;
+# Time: PHONE_REDACTEDT18:PORT:PORT.931082Z
+# User@Host: lead_lab_app_user[lead_lab_app_user] @  [xxx.xxx.xxx.xxx]  Id:   302
+# Query_time: 3.762676  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 1
+SET timestamp=PHONE_REDACTED;
+# administrator command: Quit;
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+# Time: PHONE_REDACTEDT06:PORT:PORT.194514Z
+# User@Host: lead_lab_app_user[lead_lab_app_user] @  [xxx.xxx.xxx.xxx]  Id:    28
+# Query_time: 5.782273  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 1
+use lead_lab;
+SET timestamp=PHONE_REDACTED;
+# administrator command: Quit;
+# Time: PHONE_REDACTEDT07:PORT:PORT.629729Z
+# User@Host: lead_lab_app_user[lead_lab_app_user] @  [xxx.xxx.xxx.xxx]  Id:    44
+# Query_time: 1.171179  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=PHONE_REDACTED;
+SET autocommit=0;
+# Time: PHONE_REDACTEDT07:PORT:PORT.629782Z
+# User@Host: lead_lab_app_user[lead_lab_app_user] @  [xxx.xxx.xxx.xxx]  Id:    43
+# Query_time: 1.046671  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=PHONE_REDACTED;
+set session transaction read only;
+# Time: PHONE_REDACTEDT07:PORT:PORT.636477Z
+# User@Host: lead_lab_app_user[lead_lab_app_user] @  [xxx.xxx.xxx.xxx]  Id:    42
+# Query_time: 1.132550  Lock_time: 0.000013 Rows_sent: 6  Rows_examined: 796
+SET timestamp=PHONE_REDACTED;
+select date(lsl1_0.created_at),sum(case when lsl1_0.outcome='SUCCESS' then 1 else 0 end),sum(case when lsl1_0.outcome='FAILED' then 1 else 0 end) from lead_submission_logs lsl1_0 where lsl1_0.created_at>='PHONE_REDACTED:PORT:PORT' group by 1 order by 1;
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+# Time: PHONE_REDACTEDT07:PORT:PORT.242077Z
+# User@Host: lead_lab_app_user[lead_lab_app_user] @  [xxx.xxx.xxx.xxx]  Id:    38
+# Query_time: 10.318069  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 1
+use lead_lab;
+SET timestamp=PHONE_REDACTED;
+# administrator command: Quit;
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+# Time: PHONE_REDACTEDT09:PORT:PORT.502825Z
+# User@Host: lead_lab_app_user[lead_lab_app_user] @  [xxx.xxx.xxx.xxx]  Id:    77
+# Query_time: 3.487891  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 1
+use lead_lab;
+SET timestamp=PHONE_REDACTED;
+# administrator command: Quit;
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+# Time: PHONE_REDACTEDT06:PORT:PORT.151695Z
+# User@Host: lead_lab_app_user[lead_lab_app_user] @  [xxx.xxx.xxx.xxx]  Id:    24
+# Query_time: 12.295567  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+use lead_lab;
+SET timestamp=PHONE_REDACTED;
+commit;
+# Time: PHONE_REDACTEDT15:PORT:PORT.113307Z
+# User@Host: lead_lab_app_user[lead_lab_app_user] @  [xxx.xxx.xxx.xxx]  Id:   124
+# Query_time: 1.179557  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=PHONE_REDACTED;
+commit;
+# Time: PHONE_REDACTEDT18:PORT:PORT.865769Z
+# User@Host: lead_lab_app_user[lead_lab_app_user] @  [xxx.xxx.xxx.xxx]  Id:   151
+# Query_time: 7.886118  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=PHONE_REDACTED;
+commit;
