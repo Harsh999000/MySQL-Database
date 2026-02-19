@@ -1,4 +1,3 @@
-harsh@Harsh:/db1/myserver/mysql/scripts$ cat auto-push-logs-mysql.sh
 #!/bin/bash
 set -euo pipefail
 
