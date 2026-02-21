@@ -1,0 +1,15 @@
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+# Time: PHONE_REDACTEDT13:PORT:PORT.603810Z
+# User@Host: lead_lab_app_user[lead_lab_app_user] @  [xxx.xxx.xxx.xxx]  Id:   113
+# Query_time: 4.731147  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 1
+use lead_lab;
+SET timestamp=PHONE_REDACTED;
+# administrator command: Quit;
