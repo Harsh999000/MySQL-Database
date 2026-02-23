@@ -1,12 +1,91 @@
 # MySQL Server Architecture
 
-This document describes the automated operational lifecycle of the MySQL server instance running on the server laptop.
+This document describes the automated operational lifecycle and runtime configuration of the MySQL server instance running on the server laptop.
 
 The system is designed for deterministic daily execution, strict isolation from other database systems, and controlled lifecycle orchestration via a master script.
 
 ---
 
-## Execution Model
+# Runtime Configuration Overview
+
+The MySQL instance is manually configured via a custom `mysqld` configuration file.
+
+## Identity & Paths
+
+- User: `harsh`
+- Port: `3310`
+- Base Directory: `/db1/myserver/mysql/mysql_files/mysql`
+- Data Directory: `/db1/myserver/mysql/data`
+- Temporary Directory: `/db1/myserver/mysql/tmp`
+- Socket File: `/db1/myserver/mysql/run/mysql.sock`
+- PID File: `/db1/myserver/mysql/run/mysql.pid`
+
+The instance runs independently of system-wide MySQL services.
+
+---
+
+## Time Zone Configuration
+
+- Default time zone: `+05:30`
+
+This ensures consistent timestamp alignment with system operations and log rotation scheduling.
+
+---
+
+## Logging Configuration
+
+Logging is intentionally verbose for learning and observability purposes.
+
+### Error Log
+- File: `/db1/myserver/mysql/logs/error.log`
+- Includes startup and shutdown events.
+
+### General Query Log (Enabled)
+- `general_log = ON`
+- File: `/db1/myserver/mysql/logs/general.log`
+- Logs every connection and every statement.
+
+This is intentionally enabled for transparency and lifecycle testing.
+
+### Slow Query Log
+- `slow_query_log = ON`
+- File: `/db1/myserver/mysql/logs/slow.log`
+- `long_query_time = 1`
+
+Queries exceeding one second are logged.
+
+---
+
+## Character Set Configuration
+
+- `character-set-server = utf8mb4`
+- `collation-server = utf8mb4_unicode_ci`
+
+Ensures modern Unicode compatibility.
+
+---
+
+## Safety & Stability Controls
+
+- `skip-symbolic-links`
+
+Prevents unsafe symbolic link usage.
+
+---
+
+## Resource Limitation Strategy
+
+To preserve memory on the server laptop:
+
+- `max_connections = 30`
+- `performance_schema = OFF`
+- `innodb_log_buffer_size = 16M`
+
+The instance is intentionally tuned for lightweight operation rather than high concurrency.
+
+---
+
+# Execution Model
 
 All maintenance operations are executed by a single master orchestration script:
 
@@ -17,7 +96,7 @@ If any step fails, execution stops immediately.
 
 ---
 
-## Scheduled Execution Windows
+# Scheduled Execution Windows
 
 - **MySQL** → 00:00 A.M.
 - **MariaDB** → 00:15 A.M.
@@ -27,7 +106,7 @@ Database families are staggered to prevent disk I/O contention and memory pressu
 
 ---
 
-## Nightly Lifecycle Flow (Sequential Execution)
+# Nightly Lifecycle Flow (Sequential Execution)
 
 The following steps are executed in strict order:
 
@@ -42,133 +121,90 @@ Each step must complete successfully before the next begins.
 
 ---
 
-## Step Details
+# Step Details
 
-### Backup MySQL Database
+## Backup MySQL Database
 
 Script: `backup-mysql.sh`
 
-**Purpose:**
-- Creates a full backup of MySQL database data.
-- Ensures recoverability in case of corruption or failure.
-- Backup is stored in a designated backup directory.
-
-This step protects database data before any log manipulation begins.
+Creates a full backup of MySQL database data before any log manipulation occurs.
 
 ---
 
-### Rotate Logs
+## Rotate Logs
 
 Script: `rotate-logs-mysql.sh`
 
-**Purpose:**
 - Renames active logs to dated format:
   - `general-YYYY-MM-DD.log`
   - `error-YYYY-MM-DD.log`
   - `slow-YYYY-MM-DD.log`
-  - `startup-YYYY-MM-DD.log`
-- Creates fresh empty log files:
-  - `general.log`
-  - `error.log`
-  - `slow.log`
+- Creates fresh active log files.
 - Copies rotated logs to GitHub logs directory.
-
-This ensures:
-- Daily log separation
-- Predictable log lifecycle
-- Compatibility with retention rules
-- Clean archival boundaries
 
 ---
 
-### Flush Logs
+## Flush Logs
 
 Script: `flush-logs-mysql.sh`
 
-**Purpose:**
-- Forces MySQL to close and reopen log file descriptors.
-- Ensures MySQL writes to newly created log files.
-- Prevents continued writing to rotated files.
-
-This guarantees correct log rotation behavior.
+Forces MySQL to reopen log file descriptors to ensure proper rotation behavior.
 
 ---
 
-### Sanitize Logs
+## Sanitize Logs
 
 Script: `sanitize-logs-mysql.sh`
 
-**Purpose:**
-- Removes sensitive or unnecessary information from logs.
-- Cleans entries before archival.
-- Ensures logs are safe for version control and long-term storage.
-
-This step protects sensitive data before GitHub archival.
+Removes sensitive information before archival.
 
 ---
 
-### Delete Logs (Retention Policy)
+## Delete Logs (Retention Policy)
 
 Script: `delete-logs-mysql.sh`
 
-**Retention Rules:**
+Retention Rules:
 
-- GitHub logs directory:
-  - Rotated logs older than 7 days are deleted locally.
-- Internal MySQL rotated logs:
-  - Deleted after 14 days.
-- Cron execution logs:
-  - Deleted after 14 days.
-
-Active logs (`general.log`, `error.log`, `slow.log`) are never deleted.
-
-This enforces controlled disk usage while preserving archival integrity.
+- GitHub logs: delete locally after 7 days.
+- Internal rotated logs: delete after 14 days.
+- Cron logs: delete after 14 days.
+- Active logs are never deleted.
 
 ---
 
-### Auto Push Logs to GitHub
+## Auto Push Logs to GitHub
 
 Script: `auto-push-logs-mysql.sh`
 
-**Purpose:**
-- Force-adds rotated log files (ignored by default via `.gitignore`).
-- Commits only new log files.
-- Does not stage deletions.
-- Fetches and rebases before push to prevent conflicts.
-- Pushes updates safely to the `main` branch.
+- Force-adds rotated log files.
+- Fetches and rebases before commit.
+- Commits only new logs.
+- Pushes safely to `main`.
 
-Important:
-
-- Deleted local logs do NOT get deleted from GitHub.
-- GitHub functions as an append-only archive.
-- Runtime logs remain ignored unless explicitly added.
+GitHub functions as an append-only archival system.
 
 ---
 
-## Log Lifecycle Model
+# Log Lifecycle Model
 
-### Active Logs:
+Active Logs:
 - `general.log`
 - `error.log`
 - `slow.log`
 
-### Rotated Logs:
+Rotated Logs:
 - `general-YYYY-MM-DD.log`
 - `error-YYYY-MM-DD.log`
 - `slow-YYYY-MM-DD.log`
-- `startup-YYYY-MM-DD.log`
 
-Logs are:
-
-- Rotated daily
-- Retained locally for controlled duration
-- Archived append-only to GitHub
+Logs are rotated daily, retained locally under policy, and archived append-only to GitHub.
 
 ---
 
-## Isolation Principles
+# Isolation Principles
 
-This MySQL instance is fully isolated from MariaDB and PostgreSQL instances by:
+This MySQL instance is fully isolated from MariaDB and PostgreSQL by:
 
 - Dedicated port (3310)
 - Dedicated socket file
@@ -176,21 +212,17 @@ This MySQL instance is fully isolated from MariaDB and PostgreSQL instances by:
 - Dedicated data directory
 - Dedicated log directory
 - PID-file-based process management
-- No process-name-based termination (no pgrep collisions)
 - Separate lifecycle execution window
 
-This prevents cross-instance interference and ensures safe coexistence.
+No shared processes, no pgrep-based termination.
 
 ---
 
-## Design Philosophy
+# Design Philosophy
 
 - Deterministic sequential execution
-- Single orchestration entry point
-- Strict process isolation
-- Explicit log lifecycle management
-- Controlled retention enforcement
-- Append-only archival strategy in GitHub
-- Clear separation between runtime server directory and Git-controlled repository
-
-The architecture is intentionally designed to simulate production-grade operational discipline in a local learning environment.
+- Explicit lifecycle orchestration
+- Lightweight memory footprint
+- Append-only log archival
+- Clear separation between runtime (`/db1/myserver/mysql`) and Git-controlled repository (`/db1/github/mysql`)
+- Infrastructure built for learning with production-style discipline
