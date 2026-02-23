@@ -1,6 +1,6 @@
 # MySQL Database Server – Manual Linux Setup
 
-This project documents a manually configured MySQL server running on Debian Linux with a deterministic automation and logging lifecycle.
+This project documents a manually configured MySQL server running on Debian Linux with deterministic automation and logging lifecycle management.
 
 The system is built as a learning-focused infrastructure project, applying production-style operational discipline on a local server environment.
 
@@ -27,48 +27,52 @@ Logs from other internal projects are stored and archived here using a structure
 
 ## Nightly Lifecycle Execution
 
-The entire MySQL maintenance workflow is orchestrated by a single master script:
+The entire MySQL maintenance workflow is orchestrated by:
 
-run-mysql-lifecycle.sh
+`run-mysql-lifecycle.sh`
 
-This script executes all steps sequentially. If any step fails, execution stops immediately.
+This script executes all steps sequentially.  
+If any step fails, execution stops immediately.
 
-### Execution Window
+---
 
-MySQL lifecycle runs daily at:
+## Execution Window
 
-00:00 A.M.
+- **MySQL** → 00:00 A.M.
+- **MariaDB** → 00:15 A.M.
+- **PostgreSQL** → 00:30 A.M.
 
-Other database families (MariaDB and PostgreSQL) are staggered to prevent I/O contention.
+Database families are staggered to prevent disk I/O contention and ensure predictable resource allocation.
 
 ---
 
 ## Lifecycle Flow (Sequential)
 
-1. Backup MySQL database  
-2. Rotate logs to dated format  
-3. Flush MySQL logs  
-4. Sanitize logs  
-5. Apply retention cleanup policy  
-6. Force-add and push rotated logs to GitHub  
+1. Backup MySQL database
+2. Rotate logs to dated format
+3. Flush MySQL logs
+4. Sanitize logs
+5. Apply retention cleanup policy
+6. Force-add and push rotated logs to GitHub
 
-All steps execute in strict order using controlled chaining.
+All steps execute in strict order.
 
 ---
 
 ## Log Lifecycle Design
 
-Active Logs:
-- general.log  
-- error.log  
-- slow.log  
+### Active Logs:
+- `general.log`
+- `error.log`
+- `slow.log`
 
-After rotation:
-- general-YYYY-MM-DD.log  
-- error-YYYY-MM-DD.log  
-- slow-YYYY-MM-DD.log  
+### After Rotation:
+- `general-YYYY-MM-DD.log`
+- `error-YYYY-MM-DD.log`
+- `slow-YYYY-MM-DD.log`
 
-Retention Policy:
+### Retention Policy:
+
 - GitHub logs: append-only archival model
 - Local rotated logs: 14-day retention
 - Cron logs: 14-day retention
@@ -89,8 +93,7 @@ This MySQL instance is fully isolated from other database systems by:
 - Dedicated log directory
 - PID-file-based process management
 - No process-name-based killing (no pgrep collisions)
-
-Each database family has its own lifecycle window.
+- Separate lifecycle execution window
 
 ---
 
@@ -109,7 +112,7 @@ Each database family has its own lifecycle window.
 - Sequential orchestration via master lifecycle script
 - Resource-window staggering between database families
 - Append-only archival strategy in GitHub
-- Clear separation between runtime directory (/db1/myserver/mysql) and source-controlled directory (/db1/github/mysql)
+- Clear separation between runtime directory (`/db1/myserver/mysql`) and source-controlled directory (`/db1/github/mysql`)
 - Infrastructure built for learning with production-grade discipline
 
 ---
