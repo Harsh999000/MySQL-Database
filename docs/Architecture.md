@@ -15,11 +15,15 @@ All maintenance operations are executed by a single master orchestration script:
 This script runs once daily and executes all maintenance steps sequentially.  
 If any step fails, execution stops immediately.
 
-MySQL lifecycle execution time:
+---
 
-00:00 A.M.
+## Scheduled Execution Windows
 
-Other database systems (MariaDB and PostgreSQL) are staggered to prevent disk I/O contention.
+- **MySQL** → 00:00 A.M.
+- **MariaDB** → 00:15 A.M.
+- **PostgreSQL** → 00:30 A.M.
+
+Database families are staggered to prevent disk I/O contention and memory pressure overlap.
 
 ---
 
@@ -63,7 +67,7 @@ Script: `rotate-logs-mysql.sh`
   - `error-YYYY-MM-DD.log`
   - `slow-YYYY-MM-DD.log`
   - `startup-YYYY-MM-DD.log`
-- Creates fresh empty log files for:
+- Creates fresh empty log files:
   - `general.log`
   - `error.log`
   - `slow.log`
@@ -130,7 +134,8 @@ Script: `auto-push-logs-mysql.sh`
 - Force-adds rotated log files (ignored by default via `.gitignore`).
 - Commits only new log files.
 - Does not stage deletions.
-- Pushes updates to remote GitHub repository.
+- Fetches and rebases before push to prevent conflicts.
+- Pushes updates safely to the `main` branch.
 
 Important:
 
@@ -142,12 +147,12 @@ Important:
 
 ## Log Lifecycle Model
 
-Active Logs:
+### Active Logs:
 - `general.log`
 - `error.log`
 - `slow.log`
 
-Rotated Logs:
+### Rotated Logs:
 - `general-YYYY-MM-DD.log`
 - `error-YYYY-MM-DD.log`
 - `slow-YYYY-MM-DD.log`
