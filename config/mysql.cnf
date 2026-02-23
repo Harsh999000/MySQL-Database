@@ -55,3 +55,4 @@ skip-symbolic-links
 max_connections = 30
 performance_schema = OFF
 innodb_log_buffer_size = 16M
+innodb_buffer_pool_size = 64M
