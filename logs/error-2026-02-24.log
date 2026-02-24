@@ -1,0 +1,85 @@
+PHONE_REDACTEDT20:PORT:PORT.623335Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.4.0).
+PHONE_REDACTEDT20:PORT:PORT.600289Z 0 [System] [MY-010910] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: Shutdown complete (mysqld 8.4.0)  MySQL Community Server - GPL.
+PHONE_REDACTEDT20:PORT:PORT.600357Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+PHONE_REDACTEDT22:PORT:PORT.348121Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+PHONE_REDACTEDT22:PORT:PORT.572443Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+PHONE_REDACTEDT22:PORT:PORT.581892Z 0 [System] [MY-010116] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld (mysqld 8.4.0) starting as process 867
+PHONE_REDACTEDT22:PORT:PORT.052042Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+PHONE_REDACTEDT22:PORT:PORT.277540Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+PHONE_REDACTEDT22:PORT:PORT.292894Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+PHONE_REDACTEDT22:PORT:PORT.293058Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+PHONE_REDACTEDT22:PORT:PORT.594987Z 0 [System] [MY-010931] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: ready for connections. Version: '8.4.0'  socket: '/db1/myserver/mysql/run/mysql.sock'  port: 3310  MySQL Community Server - GPL.
+PHONE_REDACTEDT22:PORT:PORT.917470Z 8 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+PHONE_REDACTEDT22:PORT:PORT.918135Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /tmp/mysqlx.sock
+PHONE_REDACTEDT00:PORT:PORT.427167Z 9 [Warning] [MY-010058] [Server] Hostname 'Harsh' does not resolve to 'xxx.xxx.xxx.xxx'.
+PHONE_REDACTEDT11:PORT:PORT.638998Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.4.0).
+PHONE_REDACTEDT11:PORT:PORT.690929Z 0 [Warning] [MY-010909] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: Forcing close of thread 50  user: 'root'.
+PHONE_REDACTEDT11:PORT:PORT.691249Z 0 [Warning] [MY-010909] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: Forcing close of thread 54  user: 'lead_lab_app_user'.
+PHONE_REDACTEDT11:PORT:PORT.691497Z 0 [Warning] [MY-010909] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: Forcing close of thread 55  user: 'lead_lab_app_user'.
+PHONE_REDACTEDT11:PORT:PORT.889629Z 0 [System] [MY-010910] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: Shutdown complete (mysqld 8.4.0)  MySQL Community Server - GPL.
+PHONE_REDACTEDT11:PORT:PORT.889777Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+PHONE_REDACTEDT11:PORT:PORT.965482Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+PHONE_REDACTEDT11:PORT:PORT.082744Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+PHONE_REDACTEDT11:PORT:PORT.082925Z 0 [System] [MY-010116] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld (mysqld 8.4.0) starting as process 3829
+PHONE_REDACTEDT11:PORT:PORT.110852Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+PHONE_REDACTEDT11:PORT:PORT.942725Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+PHONE_REDACTEDT11:PORT:PORT.457088Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+PHONE_REDACTEDT11:PORT:PORT.457225Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+PHONE_REDACTEDT11:PORT:PORT.543247Z 0 [ERROR] [MY-000067] [Server] unknown variable 'prompt=(\d) mysql> '.
+PHONE_REDACTEDT11:PORT:PORT.547955Z 0 [ERROR] [MY-010119] [Server] Aborting
+PHONE_REDACTEDT11:PORT:PORT.786778Z 0 [System] [MY-010910] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: Shutdown complete (mysqld 8.4.0)  MySQL Community Server - GPL.
+PHONE_REDACTEDT11:PORT:PORT.786900Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+PHONE_REDACTEDT11:PORT:PORT.072159Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+PHONE_REDACTEDT11:PORT:PORT.194747Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+PHONE_REDACTEDT11:PORT:PORT.194925Z 0 [System] [MY-010116] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld (mysqld 8.4.0) starting as process 3928
+PHONE_REDACTEDT11:PORT:PORT.222329Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+PHONE_REDACTEDT11:PORT:PORT.365439Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+PHONE_REDACTEDT11:PORT:PORT.822907Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+PHONE_REDACTEDT11:PORT:PORT.823077Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+PHONE_REDACTEDT11:PORT:PORT.904501Z 0 [ERROR] [MY-000067] [Server] unknown variable 'prompt=(\d) mysql> '.
+PHONE_REDACTEDT11:PORT:PORT.909165Z 0 [ERROR] [MY-010119] [Server] Aborting
+PHONE_REDACTEDT11:PORT:PORT.331054Z 0 [System] [MY-010910] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: Shutdown complete (mysqld 8.4.0)  MySQL Community Server - GPL.
+PHONE_REDACTEDT11:PORT:PORT.331127Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+PHONE_REDACTEDT11:PORT:PORT.681716Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+PHONE_REDACTEDT11:PORT:PORT.802739Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+PHONE_REDACTEDT11:PORT:PORT.802915Z 0 [System] [MY-010116] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld (mysqld 8.4.0) starting as process 4036
+PHONE_REDACTEDT11:PORT:PORT.830093Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+PHONE_REDACTEDT11:PORT:PORT.896368Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+PHONE_REDACTEDT11:PORT:PORT.251488Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+PHONE_REDACTEDT11:PORT:PORT.251649Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+PHONE_REDACTEDT11:PORT:PORT.485122Z 0 [System] [MY-010931] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: ready for connections. Version: '8.4.0'  socket: '/db1/myserver/mysql/run/mysql.sock'  port: 3310  MySQL Community Server - GPL.
+PHONE_REDACTEDT11:PORT:PORT.770151Z 8 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+PHONE_REDACTEDT11:PORT:PORT.770730Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /tmp/mysqlx.sock
+PHONE_REDACTEDT11:PORT:PORT.867848Z 9 [Warning] [MY-010058] [Server] Hostname 'Harsh' does not resolve to 'xxx.xxx.xxx.xxx'.
+PHONE_REDACTEDT11:PORT:PORT.729600Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.4.0).
+PHONE_REDACTEDT11:PORT:PORT.732916Z 0 [Warning] [MY-010909] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: Forcing close of thread 9  user: 'lead_lab_app_user'.
+PHONE_REDACTEDT11:PORT:PORT.733276Z 0 [Warning] [MY-010909] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: Forcing close of thread 10  user: 'lead_lab_app_user'.
+PHONE_REDACTEDT11:PORT:PORT.733447Z 0 [Warning] [MY-010909] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: Forcing close of thread 11  user: 'root'.
+PHONE_REDACTEDT11:PORT:PORT.102259Z 0 [System] [MY-010910] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: Shutdown complete (mysqld 8.4.0)  MySQL Community Server - GPL.
+PHONE_REDACTEDT11:PORT:PORT.102328Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+PHONE_REDACTEDT11:PORT:PORT.256772Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+PHONE_REDACTEDT11:PORT:PORT.382770Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+PHONE_REDACTEDT11:PORT:PORT.382947Z 0 [System] [MY-010116] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld (mysqld 8.4.0) starting as process 4146
+PHONE_REDACTEDT11:PORT:PORT.410715Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+PHONE_REDACTEDT11:PORT:PORT.433861Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+PHONE_REDACTEDT11:PORT:PORT.940786Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+PHONE_REDACTEDT11:PORT:PORT.940932Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+PHONE_REDACTEDT11:PORT:PORT.165378Z 0 [System] [MY-010931] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: ready for connections. Version: '8.4.0'  socket: '/db1/myserver/mysql/run/mysql.sock'  port: 3310  MySQL Community Server - GPL.
+PHONE_REDACTEDT11:PORT:PORT.484537Z 8 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+PHONE_REDACTEDT11:PORT:PORT.485204Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /tmp/mysqlx.sock
+PHONE_REDACTEDT11:PORT:PORT.122428Z 10 [Warning] [MY-010058] [Server] Hostname 'Harsh' does not resolve to 'xxx.xxx.xxx.xxx'.
+PHONE_REDACTEDT16:PORT:PORT.500433Z 28 [Warning] [MY-010055] [Server] IP address 'xxx.xxx.xxx.xxx' could not be resolved: Name or service not known
+PHONE_REDACTEDT16:PORT:PORT.508061Z 29 [Warning] [MY-010055] [Server] IP address 'xxx.xxx.xxx.xxx' could not be resolved: Name or service not known
+PHONE_REDACTEDT16:PORT:PORT.792221Z 30 [Warning] [MY-010055] [Server] IP address 'xxx.xxx.xxx.xxx' could not be resolved: Name or service not known
+PHONE_REDACTEDT16:PORT:PORT.324097Z 31 [Warning] [MY-010055] [Server] IP address 'xxx.xxx.xxx.xxx' could not be resolved: Name or service not known
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          PHONE_REDACTEDT17:PORT:PORT.734643Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+PHONE_REDACTEDT17:PORT:PORT.970162Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+PHONE_REDACTEDT17:PORT:PORT.979575Z 0 [System] [MY-010116] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld (mysqld 8.4.0) starting as process 873
+PHONE_REDACTEDT17:PORT:PORT.449656Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+PHONE_REDACTEDT17:PORT:PORT.797164Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+PHONE_REDACTEDT17:PORT:PORT.823687Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+PHONE_REDACTEDT17:PORT:PORT.823851Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+PHONE_REDACTEDT17:PORT:PORT.081643Z 0 [System] [MY-010931] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: ready for connections. Version: '8.4.0'  socket: '/db1/myserver/mysql/run/mysql.sock'  port: 3310  MySQL Community Server - GPL.
+PHONE_REDACTEDT17:PORT:PORT.392998Z 8 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+PHONE_REDACTEDT17:PORT:PORT.393838Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /tmp/mysqlx.sock
+PHONE_REDACTEDT17:PORT:PORT.234188Z 9 [Warning] [MY-010058] [Server] Hostname 'Harsh' does not resolve to 'xxx.xxx.xxx.xxx'.

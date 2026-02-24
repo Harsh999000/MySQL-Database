@@ -1,0 +1,58 @@
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+# Time: PHONE_REDACTEDT10:PORT:PORT.651924Z
+# User@Host: root[root] @ localhost []  Id:    50
+# Query_time: 7.033530  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+use event_outreach_ai;
+SET timestamp=PHONE_REDACTED;
+SHOW GRANTS FOR 'USER'@'HOST';
+# Time: PHONE_REDACTEDT10:PORT:PORT.299726Z
+# User@Host: root[root] @ localhost []  Id:    50
+# Query_time: 14.111006  Lock_time: 0.000027 Rows_sent: 0  Rows_examined: 0
+SET timestamp=PHONE_REDACTED;
+DROP USER 'USER'@'HOST';
+# Time: PHONE_REDACTEDT11:PORT:PORT.065292Z
+# User@Host: event_outreach_app_user[event_outreach_app_user] @ DESKTOP-1PIC86U [xxx.xxx.xxx.xxx]  Id:    56
+# Query_time: 1.746528  Lock_time: 0.000005 Rows_sent: 0  Rows_examined: 0
+SET timestamp=PHONE_REDACTED;
+INSERT INTO speakers_raw (
+            name,
+            designation_raw,
+            event_year,
+            event_name,
+            source_url,
+            ingestion_batch_id,
+            data_hash,
+            scraped_at
+        )
+        VALUES ('Salim Naim', 'Director of AI, Microsoft Global Black Belt, Asia', 2025, 'TechSparks', 'https://techsparks.yourstory.com/2025', 'TS2025_PHONE_REDACTED', '8063023a5cd18aab210efe03e03eaeb1fac08d7e7060a168f0cbcd97c71bd96d', 'PHONE_REDACTED:PORT:PORT.566272')
+        ON DUPLICATE KEY UPDATE
+            ingestion_batch_id = VALUES(ingestion_batch_id),
+            scraped_at = VALUES(scraped_at);
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+# Time: PHONE_REDACTEDT11:PORT:PORT.032132Z
+# User@Host: root[root] @ localhost []  Id:    11
+# Query_time: 1.281262  Lock_time: 0.000026 Rows_sent: 6  Rows_examined: 25
+SET timestamp=PHONE_REDACTED;
+show databases;
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
