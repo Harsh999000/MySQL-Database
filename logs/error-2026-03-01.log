@@ -1,0 +1,14 @@
+PHONE_REDACTEDT19:PORT:PORT.851873Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.4.0).
+PHONE_REDACTEDT19:PORT:PORT.099916Z 0 [System] [MY-010910] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: Shutdown complete (mysqld 8.4.0)  MySQL Community Server - GPL.
+PHONE_REDACTEDT19:PORT:PORT.099988Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+PHONE_REDACTEDT04:PORT:PORT.955148Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+PHONE_REDACTEDT04:PORT:PORT.190619Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+PHONE_REDACTEDT04:PORT:PORT.199992Z 0 [System] [MY-010116] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld (mysqld 8.4.0) starting as process 855
+PHONE_REDACTEDT04:PORT:PORT.703291Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+PHONE_REDACTEDT04:PORT:PORT.951074Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+PHONE_REDACTEDT04:PORT:PORT.210117Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+PHONE_REDACTEDT04:PORT:PORT.210292Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+PHONE_REDACTEDT04:PORT:PORT.523522Z 0 [System] [MY-010931] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: ready for connections. Version: '8.4.0'  socket: '/db1/myserver/mysql/run/mysql.sock'  port: 3310  MySQL Community Server - GPL.
+PHONE_REDACTEDT04:PORT:PORT.834947Z 8 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+PHONE_REDACTEDT04:PORT:PORT.835597Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /tmp/mysqlx.sock
+PHONE_REDACTEDT04:PORT:PORT.020415Z 9 [Warning] [MY-010058] [Server] Hostname 'Harsh' does not resolve to 'xxx.xxx.xxx.xxx'.
