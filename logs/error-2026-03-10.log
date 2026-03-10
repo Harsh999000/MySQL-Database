@@ -1,0 +1,14 @@
+PHONE_REDACTEDT22:PORT:PORT.836534Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.4.0).
+PHONE_REDACTEDT22:PORT:PORT.857228Z 0 [System] [MY-010910] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: Shutdown complete (mysqld 8.4.0)  MySQL Community Server - GPL.
+PHONE_REDACTEDT22:PORT:PORT.857284Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+PHONE_REDACTEDT04:PORT:PORT.001507Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+PHONE_REDACTEDT04:PORT:PORT.140582Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+PHONE_REDACTEDT04:PORT:PORT.142127Z 0 [System] [MY-010116] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld (mysqld 8.4.0) starting as process 1388
+PHONE_REDACTEDT04:PORT:PORT.215836Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+PHONE_REDACTEDT04:PORT:PORT.666910Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+PHONE_REDACTEDT04:PORT:PORT.235352Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+PHONE_REDACTEDT04:PORT:PORT.235470Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+PHONE_REDACTEDT04:PORT:PORT.296977Z 0 [System] [MY-010931] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: ready for connections. Version: '8.4.0'  socket: '/db1/myserver/mysql/run/mysql.sock'  port: 3310  MySQL Community Server - GPL.
+PHONE_REDACTEDT04:PORT:PORT.569474Z 8 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+PHONE_REDACTEDT04:PORT:PORT.570183Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /tmp/mysqlx.sock
+PHONE_REDACTEDT05:PORT:PORT.955073Z 9 [Warning] [MY-010058] [Server] Hostname 'harsh-server' does not resolve to 'xxx.xxx.xxx.xxx'.
