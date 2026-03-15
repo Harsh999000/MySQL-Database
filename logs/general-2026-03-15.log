@@ -1,0 +1,1233 @@
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+PHONE_REDACTEDT18:PORT:PORT.930975Z	   17 Quit	
+PHONE_REDACTEDT18:PORT:PORT.235065Z	   14 Quit	
+PHONE_REDACTEDT18:PORT:PORT.283797Z	   18 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT18:PORT:PORT.286337Z	   18 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT18:PORT:PORT.288574Z	   18 Query	SET character_set_results = NULL
+PHONE_REDACTEDT18:PORT:PORT.289462Z	   18 Query	SET autocommit=1
+PHONE_REDACTEDT18:PORT:PORT.290442Z	   18 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT18:PORT:PORT.757855Z	   15 Quit	
+PHONE_REDACTEDT18:PORT:PORT.805960Z	   19 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT18:PORT:PORT.808411Z	   19 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT18:PORT:PORT.810809Z	   19 Query	SET character_set_results = NULL
+PHONE_REDACTEDT18:PORT:PORT.812051Z	   19 Query	SET autocommit=1
+PHONE_REDACTEDT18:PORT:PORT.813306Z	   19 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT19:PORT:PORT.614979Z	   18 Quit	
+PHONE_REDACTEDT19:PORT:PORT.665067Z	   20 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT19:PORT:PORT.666955Z	   20 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT19:PORT:PORT.668957Z	   20 Query	SET character_set_results = NULL
+PHONE_REDACTEDT19:PORT:PORT.669832Z	   20 Query	SET autocommit=1
+PHONE_REDACTEDT19:PORT:PORT.671006Z	   20 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT19:PORT:PORT.154660Z	   19 Quit	
+PHONE_REDACTEDT19:PORT:PORT.201997Z	   21 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT19:PORT:PORT.203696Z	   21 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT19:PORT:PORT.205900Z	   21 Query	SET character_set_results = NULL
+PHONE_REDACTEDT19:PORT:PORT.207013Z	   21 Query	SET autocommit=1
+PHONE_REDACTEDT19:PORT:PORT.208556Z	   21 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT19:PORT:PORT.933568Z	   20 Quit	
+PHONE_REDACTEDT19:PORT:PORT.943644Z	   21 Quit	
+/db1/myserver/mysql/mysql_files/mysql/bin/mysqld, Version: 8.4.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3310  Unix socket: /db1/myserver/mysql/run/mysql.sock
+Time                 Id Command    Argument
+PHONE_REDACTEDT07:PORT:PORT.654133Z	    0 Execute	CREATE TABLE performance_schema.innodb_redo_log_files(
+`FILE_ID` BIGINT NOT NULL COMMENT 'Id of the file.',
+`FILE_NAME` VARCHAR(2000) NOT NULL COMMENT 'Path to the file.',
+`START_LSN` BIGINT NOT NULL COMMENT 'LSN of the first block in the file.',
+`END_LSN` BIGINT NOT NULL COMMENT 'LSN after the last block in the file.',
+`SIZE_IN_BYTES` BIGINT NOT NULL COMMENT 'Size of the file (in bytes).',
+`IS_FULL` TINYINT NOT NULL COMMENT '1 iff file has no free space inside.',
+`CONSUMER_LEVEL` INT NOT NULL COMMENT 'All redo log consumers registered on smaller levels than this value, have already consumed this file.'
+)engine = 'performance_schema'
+PHONE_REDACTEDT07:PORT:PORT.026946Z	    8 Connect	
+PHONE_REDACTEDT07:PORT:PORT.027826Z	    8 Query	SELECT VALUE="Yes" FROM performance_schema.tls_channel_status  WHERE CHANNEL="mysql_main" AND PROPERTY="Enabled"
+PHONE_REDACTEDT07:PORT:PORT.048966Z	    8 Quit	
+PHONE_REDACTEDT07:PORT:PORT.105057Z	    9 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT07:PORT:PORT.115040Z	    9 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT07:PORT:PORT.144016Z	    9 Query	SET character_set_results = NULL
+PHONE_REDACTEDT07:PORT:PORT.145838Z	    9 Query	SET autocommit=1
+PHONE_REDACTEDT07:PORT:PORT.158802Z	    9 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT07:PORT:PORT.161845Z	    9 Query	SELECT @@session.transaction_isolation
+PHONE_REDACTEDT07:PORT:PORT.213121Z	    9 Query	SELECT WORD FROM INFORMATION_SCHEMA.KEYWORDS WHERE RESERVED=1 ORDER BY WORD
+PHONE_REDACTEDT07:PORT:PORT.359105Z	   10 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT07:PORT:PORT.363809Z	   10 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT07:PORT:PORT.367154Z	   10 Query	SET character_set_results = NULL
+PHONE_REDACTEDT07:PORT:PORT.369117Z	   10 Query	SET autocommit=1
+PHONE_REDACTEDT07:PORT:PORT.371266Z	   10 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT07:PORT:PORT.444783Z	   11 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT07:PORT:PORT.451492Z	   11 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT07:PORT:PORT.457668Z	   11 Query	SET character_set_results = NULL
+PHONE_REDACTEDT07:PORT:PORT.462674Z	   11 Query	SET autocommit=1
+PHONE_REDACTEDT07:PORT:PORT.467102Z	   11 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT07:PORT:PORT.296146Z	   11 Quit	
+PHONE_REDACTEDT07:PORT:PORT.793681Z	   10 Quit	
+PHONE_REDACTEDT07:PORT:PORT.850204Z	   12 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT07:PORT:PORT.854687Z	   12 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT07:PORT:PORT.857342Z	   12 Query	SET character_set_results = NULL
+PHONE_REDACTEDT07:PORT:PORT.859032Z	   12 Query	SET autocommit=1
+PHONE_REDACTEDT07:PORT:PORT.860825Z	   12 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT07:PORT:PORT.624056Z	    9 Quit	
+PHONE_REDACTEDT07:PORT:PORT.681171Z	   13 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT07:PORT:PORT.684079Z	   13 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT07:PORT:PORT.686747Z	   13 Query	SET character_set_results = NULL
+PHONE_REDACTEDT07:PORT:PORT.687952Z	   13 Query	SET autocommit=1
+PHONE_REDACTEDT07:PORT:PORT.689353Z	   13 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT08:PORT:PORT.362976Z	   12 Quit	
+PHONE_REDACTEDT08:PORT:PORT.419186Z	   14 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT08:PORT:PORT.422206Z	   14 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT08:PORT:PORT.424682Z	   14 Query	SET character_set_results = NULL
+PHONE_REDACTEDT08:PORT:PORT.426110Z	   14 Query	SET autocommit=1
+PHONE_REDACTEDT08:PORT:PORT.427459Z	   14 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT08:PORT:PORT.937155Z	   13 Quit	
+PHONE_REDACTEDT08:PORT:PORT.993029Z	   15 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT08:PORT:PORT.996099Z	   15 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT08:PORT:PORT.998586Z	   15 Query	SET character_set_results = NULL
+PHONE_REDACTEDT08:PORT:PORT.999873Z	   15 Query	SET autocommit=1
+PHONE_REDACTEDT08:PORT:PORT.001287Z	   15 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT08:PORT:PORT.198080Z	   14 Quit	
+PHONE_REDACTEDT08:PORT:PORT.245899Z	   16 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT08:PORT:PORT.248892Z	   16 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT08:PORT:PORT.251494Z	   16 Query	SET character_set_results = NULL
+PHONE_REDACTEDT08:PORT:PORT.252733Z	   16 Query	SET autocommit=1
+PHONE_REDACTEDT08:PORT:PORT.254099Z	   16 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT08:PORT:PORT.387776Z	   15 Quit	
+PHONE_REDACTEDT08:PORT:PORT.438688Z	   17 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT08:PORT:PORT.441290Z	   17 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT08:PORT:PORT.443603Z	   17 Query	SET character_set_results = NULL
+PHONE_REDACTEDT08:PORT:PORT.444909Z	   17 Query	SET autocommit=1
+PHONE_REDACTEDT08:PORT:PORT.446402Z	   17 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT09:PORT:PORT.962836Z	   16 Quit	
+PHONE_REDACTEDT09:PORT:PORT.012167Z	   18 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT09:PORT:PORT.014256Z	   18 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT09:PORT:PORT.016530Z	   18 Query	SET character_set_results = NULL
+PHONE_REDACTEDT09:PORT:PORT.017623Z	   18 Query	SET autocommit=1
+PHONE_REDACTEDT09:PORT:PORT.018911Z	   18 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT09:PORT:PORT.145031Z	   17 Quit	
+PHONE_REDACTEDT09:PORT:PORT.192657Z	   19 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT09:PORT:PORT.194487Z	   19 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT09:PORT:PORT.196556Z	   19 Query	SET character_set_results = NULL
+PHONE_REDACTEDT09:PORT:PORT.197687Z	   19 Query	SET autocommit=1
+PHONE_REDACTEDT09:PORT:PORT.199198Z	   19 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT09:PORT:PORT.189493Z	   18 Quit	
+PHONE_REDACTEDT09:PORT:PORT.241832Z	   20 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT09:PORT:PORT.244406Z	   20 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT09:PORT:PORT.246590Z	   20 Query	SET character_set_results = NULL
+PHONE_REDACTEDT09:PORT:PORT.247939Z	   20 Query	SET autocommit=1
+PHONE_REDACTEDT09:PORT:PORT.249509Z	   20 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT09:PORT:PORT.204732Z	   19 Quit	
+PHONE_REDACTEDT09:PORT:PORT.252792Z	   21 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT09:PORT:PORT.255094Z	   21 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT09:PORT:PORT.257361Z	   21 Query	SET character_set_results = NULL
+PHONE_REDACTEDT09:PORT:PORT.258613Z	   21 Query	SET autocommit=1
+PHONE_REDACTEDT09:PORT:PORT.259937Z	   21 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT10:PORT:PORT.594124Z	   20 Quit	
+PHONE_REDACTEDT10:PORT:PORT.639563Z	   22 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT10:PORT:PORT.641570Z	   22 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT10:PORT:PORT.643313Z	   22 Query	SET character_set_results = NULL
+PHONE_REDACTEDT10:PORT:PORT.644518Z	   22 Query	SET autocommit=1
+PHONE_REDACTEDT10:PORT:PORT.645776Z	   22 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT10:PORT:PORT.331705Z	   21 Quit	
+PHONE_REDACTEDT10:PORT:PORT.392268Z	   23 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT10:PORT:PORT.395798Z	   23 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT10:PORT:PORT.398242Z	   23 Query	SET character_set_results = NULL
+PHONE_REDACTEDT10:PORT:PORT.399284Z	   23 Query	SET autocommit=1
+PHONE_REDACTEDT10:PORT:PORT.400331Z	   23 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT10:PORT:PORT.069158Z	   22 Quit	
+PHONE_REDACTEDT10:PORT:PORT.113176Z	   24 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT10:PORT:PORT.115014Z	   24 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT10:PORT:PORT.116756Z	   24 Query	SET character_set_results = NULL
+PHONE_REDACTEDT10:PORT:PORT.117834Z	   24 Query	SET autocommit=1
+PHONE_REDACTEDT10:PORT:PORT.119260Z	   24 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT10:PORT:PORT.041607Z	   23 Quit	
+PHONE_REDACTEDT10:PORT:PORT.085813Z	   25 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT10:PORT:PORT.088144Z	   25 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT10:PORT:PORT.089956Z	   25 Query	SET character_set_results = NULL
+PHONE_REDACTEDT10:PORT:PORT.091155Z	   25 Query	SET autocommit=1
+PHONE_REDACTEDT10:PORT:PORT.092458Z	   25 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT11:PORT:PORT.218792Z	   24 Quit	
+PHONE_REDACTEDT11:PORT:PORT.263666Z	   26 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT11:PORT:PORT.265863Z	   26 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT11:PORT:PORT.267863Z	   26 Query	SET character_set_results = NULL
+PHONE_REDACTEDT11:PORT:PORT.268931Z	   26 Query	SET autocommit=1
+PHONE_REDACTEDT11:PORT:PORT.269870Z	   26 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT11:PORT:PORT.439812Z	   25 Quit	
+PHONE_REDACTEDT11:PORT:PORT.485814Z	   27 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT11:PORT:PORT.488088Z	   27 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT11:PORT:PORT.489922Z	   27 Query	SET character_set_results = NULL
+PHONE_REDACTEDT11:PORT:PORT.490873Z	   27 Query	SET autocommit=1
+PHONE_REDACTEDT11:PORT:PORT.492001Z	   27 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT11:PORT:PORT.545259Z	   26 Quit	
+PHONE_REDACTEDT11:PORT:PORT.588820Z	   28 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT11:PORT:PORT.591023Z	   28 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT11:PORT:PORT.593123Z	   28 Query	SET character_set_results = NULL
+PHONE_REDACTEDT11:PORT:PORT.594126Z	   28 Query	SET autocommit=1
+PHONE_REDACTEDT11:PORT:PORT.595268Z	   28 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT11:PORT:PORT.666508Z	   27 Quit	
+PHONE_REDACTEDT11:PORT:PORT.711047Z	   29 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT11:PORT:PORT.712717Z	   29 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT11:PORT:PORT.714797Z	   29 Query	SET character_set_results = NULL
+PHONE_REDACTEDT11:PORT:PORT.715920Z	   29 Query	SET autocommit=1
+PHONE_REDACTEDT11:PORT:PORT.717251Z	   29 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT12:PORT:PORT.201834Z	   28 Quit	
+PHONE_REDACTEDT12:PORT:PORT.247475Z	   30 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT12:PORT:PORT.249728Z	   30 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT12:PORT:PORT.251486Z	   30 Query	SET character_set_results = NULL
+PHONE_REDACTEDT12:PORT:PORT.252305Z	   30 Query	SET autocommit=1
+PHONE_REDACTEDT12:PORT:PORT.253183Z	   30 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT12:PORT:PORT.778606Z	   29 Quit	
+PHONE_REDACTEDT12:PORT:PORT.825714Z	   31 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT12:PORT:PORT.828109Z	   31 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT12:PORT:PORT.830054Z	   31 Query	SET character_set_results = NULL
+PHONE_REDACTEDT12:PORT:PORT.831176Z	   31 Query	SET autocommit=1
+PHONE_REDACTEDT12:PORT:PORT.832515Z	   31 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT12:PORT:PORT.751366Z	   30 Quit	
+PHONE_REDACTEDT12:PORT:PORT.795162Z	   32 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT12:PORT:PORT.796830Z	   32 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT12:PORT:PORT.798369Z	   32 Query	SET character_set_results = NULL
+PHONE_REDACTEDT12:PORT:PORT.799325Z	   32 Query	SET autocommit=1
+PHONE_REDACTEDT12:PORT:PORT.800627Z	   32 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT12:PORT:PORT.244262Z	   31 Quit	
+PHONE_REDACTEDT12:PORT:PORT.284330Z	   33 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT12:PORT:PORT.286250Z	   33 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT12:PORT:PORT.287892Z	   33 Query	SET character_set_results = NULL
+PHONE_REDACTEDT12:PORT:PORT.288856Z	   33 Query	SET autocommit=1
+PHONE_REDACTEDT12:PORT:PORT.290137Z	   33 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT13:PORT:PORT.581704Z	   32 Quit	
+PHONE_REDACTEDT13:PORT:PORT.626866Z	   34 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT13:PORT:PORT.628932Z	   34 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT13:PORT:PORT.630773Z	   34 Query	SET character_set_results = NULL
+PHONE_REDACTEDT13:PORT:PORT.631845Z	   34 Query	SET autocommit=1
+PHONE_REDACTEDT13:PORT:PORT.633030Z	   34 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT13:PORT:PORT.369621Z	   33 Quit	
+PHONE_REDACTEDT13:PORT:PORT.410048Z	   35 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT13:PORT:PORT.411871Z	   35 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT13:PORT:PORT.413737Z	   35 Query	SET character_set_results = NULL
+PHONE_REDACTEDT13:PORT:PORT.414798Z	   35 Query	SET autocommit=1
+PHONE_REDACTEDT13:PORT:PORT.415683Z	   35 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT13:PORT:PORT.959007Z	   34 Quit	
+PHONE_REDACTEDT13:PORT:PORT.002985Z	   36 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT13:PORT:PORT.004653Z	   36 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT13:PORT:PORT.006235Z	   36 Query	SET character_set_results = NULL
+PHONE_REDACTEDT13:PORT:PORT.007031Z	   36 Query	SET autocommit=1
+PHONE_REDACTEDT13:PORT:PORT.008054Z	   36 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT13:PORT:PORT.253871Z	   35 Quit	
+PHONE_REDACTEDT13:PORT:PORT.299267Z	   37 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT13:PORT:PORT.300987Z	   37 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT13:PORT:PORT.302582Z	   37 Query	SET character_set_results = NULL
+PHONE_REDACTEDT13:PORT:PORT.303543Z	   37 Query	SET autocommit=1
+PHONE_REDACTEDT13:PORT:PORT.304314Z	   37 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT14:PORT:PORT.964222Z	   36 Quit	
+PHONE_REDACTEDT14:PORT:PORT.008696Z	   38 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT14:PORT:PORT.010542Z	   38 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT14:PORT:PORT.012273Z	   38 Query	SET character_set_results = NULL
+PHONE_REDACTEDT14:PORT:PORT.013234Z	   38 Query	SET autocommit=1
+PHONE_REDACTEDT14:PORT:PORT.014388Z	   38 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT14:PORT:PORT.915309Z	   37 Quit	
+PHONE_REDACTEDT14:PORT:PORT.948641Z	   39 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT14:PORT:PORT.950121Z	   39 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT14:PORT:PORT.951603Z	   39 Query	SET character_set_results = NULL
+PHONE_REDACTEDT14:PORT:PORT.952305Z	   39 Query	SET autocommit=1
+PHONE_REDACTEDT14:PORT:PORT.953272Z	   39 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT14:PORT:PORT.216740Z	   38 Quit	
+PHONE_REDACTEDT14:PORT:PORT.261687Z	   40 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT14:PORT:PORT.263631Z	   40 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT14:PORT:PORT.265576Z	   40 Query	SET character_set_results = NULL
+PHONE_REDACTEDT14:PORT:PORT.266847Z	   40 Query	SET autocommit=1
+PHONE_REDACTEDT14:PORT:PORT.268259Z	   40 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT14:PORT:PORT.660473Z	   39 Quit	
+PHONE_REDACTEDT14:PORT:PORT.704804Z	   41 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT14:PORT:PORT.706658Z	   41 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT14:PORT:PORT.708231Z	   41 Query	SET character_set_results = NULL
+PHONE_REDACTEDT14:PORT:PORT.709097Z	   41 Query	SET autocommit=1
+PHONE_REDACTEDT14:PORT:PORT.710024Z	   41 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT15:PORT:PORT.794378Z	   40 Quit	
+PHONE_REDACTEDT15:PORT:PORT.844121Z	   42 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT15:PORT:PORT.846503Z	   42 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT15:PORT:PORT.848604Z	   42 Query	SET character_set_results = NULL
+PHONE_REDACTEDT15:PORT:PORT.849794Z	   42 Query	SET autocommit=1
+PHONE_REDACTEDT15:PORT:PORT.851370Z	   42 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT15:PORT:PORT.870971Z	   41 Quit	
+PHONE_REDACTEDT15:PORT:PORT.913071Z	   43 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT15:PORT:PORT.914657Z	   43 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT15:PORT:PORT.916261Z	   43 Query	SET character_set_results = NULL
+PHONE_REDACTEDT15:PORT:PORT.917304Z	   43 Query	SET autocommit=1
+PHONE_REDACTEDT15:PORT:PORT.918764Z	   43 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT15:PORT:PORT.114684Z	   42 Quit	
+PHONE_REDACTEDT15:PORT:PORT.157296Z	   44 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT15:PORT:PORT.158877Z	   44 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT15:PORT:PORT.160378Z	   44 Query	SET character_set_results = NULL
+PHONE_REDACTEDT15:PORT:PORT.161282Z	   44 Query	SET autocommit=1
+PHONE_REDACTEDT15:PORT:PORT.162105Z	   44 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT15:PORT:PORT.149945Z	   43 Quit	
+PHONE_REDACTEDT15:PORT:PORT.193480Z	   45 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT15:PORT:PORT.195039Z	   45 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT15:PORT:PORT.196618Z	   45 Query	SET character_set_results = NULL
+PHONE_REDACTEDT15:PORT:PORT.197398Z	   45 Query	SET autocommit=1
+PHONE_REDACTEDT15:PORT:PORT.198326Z	   45 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT16:PORT:PORT.315273Z	   44 Quit	
+PHONE_REDACTEDT16:PORT:PORT.356776Z	   46 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT16:PORT:PORT.358207Z	   46 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT16:PORT:PORT.359690Z	   46 Query	SET character_set_results = NULL
+PHONE_REDACTEDT16:PORT:PORT.360325Z	   46 Query	SET autocommit=1
+PHONE_REDACTEDT16:PORT:PORT.361089Z	   46 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT16:PORT:PORT.647656Z	   45 Quit	
+PHONE_REDACTEDT16:PORT:PORT.690329Z	   47 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT16:PORT:PORT.692156Z	   47 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT16:PORT:PORT.693966Z	   47 Query	SET character_set_results = NULL
+PHONE_REDACTEDT16:PORT:PORT.695302Z	   47 Query	SET autocommit=1
+PHONE_REDACTEDT16:PORT:PORT.696618Z	   47 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT16:PORT:PORT.034164Z	   46 Quit	
+PHONE_REDACTEDT16:PORT:PORT.075482Z	   48 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT16:PORT:PORT.077223Z	   48 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT16:PORT:PORT.078894Z	   48 Query	SET character_set_results = NULL
+PHONE_REDACTEDT16:PORT:PORT.079818Z	   48 Query	SET autocommit=1
+PHONE_REDACTEDT16:PORT:PORT.080590Z	   48 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT16:PORT:PORT.913527Z	   47 Quit	
+PHONE_REDACTEDT16:PORT:PORT.954289Z	   49 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT16:PORT:PORT.956008Z	   49 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT16:PORT:PORT.957472Z	   49 Query	SET character_set_results = NULL
+PHONE_REDACTEDT16:PORT:PORT.958102Z	   49 Query	SET autocommit=1
+PHONE_REDACTEDT16:PORT:PORT.958827Z	   49 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT17:PORT:PORT.723631Z	   48 Quit	
+PHONE_REDACTEDT17:PORT:PORT.763632Z	   50 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT17:PORT:PORT.764934Z	   50 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT17:PORT:PORT.766130Z	   50 Query	SET character_set_results = NULL
+PHONE_REDACTEDT17:PORT:PORT.766566Z	   50 Query	SET autocommit=1
+PHONE_REDACTEDT17:PORT:PORT.767066Z	   50 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT17:PORT:PORT.973666Z	   49 Quit	
+PHONE_REDACTEDT17:PORT:PORT.016247Z	   51 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT17:PORT:PORT.018236Z	   51 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT17:PORT:PORT.020051Z	   51 Query	SET character_set_results = NULL
+PHONE_REDACTEDT17:PORT:PORT.021061Z	   51 Query	SET autocommit=1
+PHONE_REDACTEDT17:PORT:PORT.022347Z	   51 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT17:PORT:PORT.931020Z	   50 Quit	
+PHONE_REDACTEDT17:PORT:PORT.976778Z	   52 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT17:PORT:PORT.978318Z	   52 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT17:PORT:PORT.979595Z	   52 Query	SET character_set_results = NULL
+PHONE_REDACTEDT17:PORT:PORT.980098Z	   52 Query	SET autocommit=1
+PHONE_REDACTEDT17:PORT:PORT.980798Z	   52 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT17:PORT:PORT.154598Z	   51 Quit	
+PHONE_REDACTEDT17:PORT:PORT.194899Z	   53 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT17:PORT:PORT.196497Z	   53 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT17:PORT:PORT.197836Z	   53 Query	SET character_set_results = NULL
+PHONE_REDACTEDT17:PORT:PORT.198760Z	   53 Query	SET autocommit=1
+PHONE_REDACTEDT17:PORT:PORT.199656Z	   53 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT18:PORT:PORT.332673Z	   52 Quit	
+PHONE_REDACTEDT18:PORT:PORT.380664Z	   54 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT18:PORT:PORT.382583Z	   54 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT18:PORT:PORT.384482Z	   54 Query	SET character_set_results = NULL
+PHONE_REDACTEDT18:PORT:PORT.385304Z	   54 Query	SET autocommit=1
+PHONE_REDACTEDT18:PORT:PORT.386105Z	   54 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT18:PORT:PORT.563732Z	   53 Quit	
+PHONE_REDACTEDT18:PORT:PORT.605110Z	   55 Connect	EMAIL_REDACTED on lead_lab using SSL/TLS
+PHONE_REDACTEDT18:PORT:PORT.606692Z	   55 Query	/* mysql-connector-j-8.1.0 (Revision: 7b6f9a337afe6ccb41823df485bf848ca7952b09) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@collation_connection AS collation_connection, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_write_timeout AS net_write_timeout, @@performance_schema AS performance_schema, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@transaction_isolation AS transaction_isolation, @@wait_timeout AS wait_timeout
+PHONE_REDACTEDT18:PORT:PORT.608247Z	   55 Query	SET character_set_results = NULL
+PHONE_REDACTEDT18:PORT:PORT.608909Z	   55 Query	SET autocommit=1
+PHONE_REDACTEDT18:PORT:PORT.609752Z	   55 Query	SELECT @@session.transaction_read_only
+PHONE_REDACTEDT18:PORT:PORT.627937Z	   56 Connect	root@localhost on  using Socket
+PHONE_REDACTEDT18:PORT:PORT.628234Z	   56 Query	/*!40100 SET @@SQL_MODE='' */
+PHONE_REDACTEDT18:PORT:PORT.628399Z	   56 Query	/*!40103 SET TIME_ZONE='+00:PORT' */
+PHONE_REDACTEDT18:PORT:PORT.628565Z	   56 Query	/*!80000 SET SESSION information_schema_stats_expiry=0 */
+PHONE_REDACTEDT18:PORT:PORT.628681Z	   56 Query	SET SESSION NET_READ_TIMEOUT= 86400, SESSION NET_WRITE_TIMEOUT= 86400
+PHONE_REDACTEDT18:PORT:PORT.628827Z	   56 Query	SET @@SESSION.terminology_use_previous = NONE
+PHONE_REDACTEDT18:PORT:PORT.628974Z	   56 Query	SHOW VARIABLES LIKE 'gtid_mode'
+PHONE_REDACTEDT18:PORT:PORT.639747Z	   56 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+PHONE_REDACTEDT18:PORT:PORT.639903Z	   56 Query	START TRANSACTION /*!40100 WITH CONSISTENT SNAPSHOT */
+PHONE_REDACTEDT18:PORT:PORT.640031Z	   56 Query	UNLOCK TABLES
+PHONE_REDACTEDT18:PORT:PORT.640209Z	   56 Query	SELECT LOGFILE_GROUP_NAME, FILE_NAME, TOTAL_EXTENTS, INITIAL_SIZE, ENGINE, EXTRA FROM INFORMATION_SCHEMA.FILES WHERE ENGINE = 'ndbcluster' AND FILE_TYPE = 'UNDO LOG' AND FILE_NAME IS NOT NULL AND LOGFILE_GROUP_NAME IS NOT NULL GROUP BY LOGFILE_GROUP_NAME, FILE_NAME, ENGINE, TOTAL_EXTENTS, INITIAL_SIZE ORDER BY LOGFILE_GROUP_NAME
+PHONE_REDACTEDT18:PORT:PORT.643449Z	   56 Query	SELECT DISTINCT TABLESPACE_NAME, FILE_NAME, LOGFILE_GROUP_NAME, EXTENT_SIZE, INITIAL_SIZE, ENGINE FROM INFORMATION_SCHEMA.FILES WHERE FILE_TYPE = 'DATAFILE' ORDER BY TABLESPACE_NAME, LOGFILE_GROUP_NAME
+PHONE_REDACTEDT18:PORT:PORT.645629Z	   56 Query	SHOW DATABASES
+PHONE_REDACTEDT18:PORT:PORT.649408Z	   56 Query	SHOW VARIABLES LIKE 'ndbinfo\_version'
+PHONE_REDACTEDT18:PORT:PORT.654127Z	   56 Init DB	mysql
+PHONE_REDACTEDT18:PORT:PORT.654303Z	   56 Query	SHOW CREATE DATABASE IF NOT EXISTS `mysql`
+PHONE_REDACTEDT18:PORT:PORT.654451Z	   56 Query	SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.654594Z	   56 Query	show tables
+PHONE_REDACTEDT18:PORT:PORT.660249Z	   56 Query	show table status like 'columns\_priv'
+PHONE_REDACTEDT18:PORT:PORT.663445Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.663595Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.663703Z	   56 Query	show create table `columns_priv`
+PHONE_REDACTEDT18:PORT:PORT.664981Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.665180Z	   56 Query	show fields from `columns_priv`
+PHONE_REDACTEDT18:PORT:PORT.668230Z	   56 Query	show fields from `columns_priv`
+PHONE_REDACTEDT18:PORT:PORT.670273Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `columns_priv`
+PHONE_REDACTEDT18:PORT:PORT.670532Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.670664Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.670785Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.670939Z	   56 Query	SHOW TRIGGERS LIKE 'columns\_priv'
+PHONE_REDACTEDT18:PORT:PORT.673865Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.674030Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.674191Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'columns_priv'
+PHONE_REDACTEDT18:PORT:PORT.675324Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.675463Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.675612Z	   56 Query	show table status like 'component'
+PHONE_REDACTEDT18:PORT:PORT.678489Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.678630Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.678732Z	   56 Query	show create table `component`
+PHONE_REDACTEDT18:PORT:PORT.679756Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.679939Z	   56 Query	show fields from `component`
+PHONE_REDACTEDT18:PORT:PORT.681794Z	   56 Query	show fields from `component`
+PHONE_REDACTEDT18:PORT:PORT.683556Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `component`
+PHONE_REDACTEDT18:PORT:PORT.683796Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.683907Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.684026Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.684169Z	   56 Query	SHOW TRIGGERS LIKE 'component'
+PHONE_REDACTEDT18:PORT:PORT.685544Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.685685Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.685838Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'component'
+PHONE_REDACTEDT18:PORT:PORT.686266Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.686358Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.686501Z	   56 Query	show table status like 'db'
+PHONE_REDACTEDT18:PORT:PORT.689179Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.689317Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.689426Z	   56 Query	show create table `db`
+PHONE_REDACTEDT18:PORT:PORT.691271Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.691472Z	   56 Query	show fields from `db`
+PHONE_REDACTEDT18:PORT:PORT.693955Z	   56 Query	show fields from `db`
+PHONE_REDACTEDT18:PORT:PORT.696388Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `db`
+PHONE_REDACTEDT18:PORT:PORT.696750Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.696867Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.696993Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.697158Z	   56 Query	SHOW TRIGGERS LIKE 'db'
+PHONE_REDACTEDT18:PORT:PORT.698559Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.698704Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.698854Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'db'
+PHONE_REDACTEDT18:PORT:PORT.699252Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.699343Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.699493Z	   56 Query	show table status like 'default\_roles'
+PHONE_REDACTEDT18:PORT:PORT.702166Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.702301Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.702402Z	   56 Query	show create table `default_roles`
+PHONE_REDACTEDT18:PORT:PORT.703520Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.703764Z	   56 Query	show fields from `default_roles`
+PHONE_REDACTEDT18:PORT:PORT.705698Z	   56 Query	show fields from `default_roles`
+PHONE_REDACTEDT18:PORT:PORT.707533Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `default_roles`
+PHONE_REDACTEDT18:PORT:PORT.707775Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.707888Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.708009Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.708151Z	   56 Query	SHOW TRIGGERS LIKE 'default\_roles'
+PHONE_REDACTEDT18:PORT:PORT.709517Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.709658Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.709808Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'default_roles'
+PHONE_REDACTEDT18:PORT:PORT.710208Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.710301Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.710446Z	   56 Query	show table status like 'engine\_cost'
+PHONE_REDACTEDT18:PORT:PORT.713140Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.713280Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.713381Z	   56 Query	show create table `engine_cost`
+PHONE_REDACTEDT18:PORT:PORT.714604Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.714792Z	   56 Query	show fields from `engine_cost`
+PHONE_REDACTEDT18:PORT:PORT.716780Z	   56 Query	show fields from `engine_cost`
+PHONE_REDACTEDT18:PORT:PORT.718728Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `engine_cost`
+PHONE_REDACTEDT18:PORT:PORT.719005Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.719131Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.719251Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.719395Z	   56 Query	SHOW TRIGGERS LIKE 'engine\_cost'
+PHONE_REDACTEDT18:PORT:PORT.720770Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.720915Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.721066Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'engine_cost'
+PHONE_REDACTEDT18:PORT:PORT.721473Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.721571Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.721704Z	   56 Query	show table status like 'func'
+PHONE_REDACTEDT18:PORT:PORT.724356Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.724502Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.724609Z	   56 Query	show create table `func`
+PHONE_REDACTEDT18:PORT:PORT.725722Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.725912Z	   56 Query	show fields from `func`
+PHONE_REDACTEDT18:PORT:PORT.727818Z	   56 Query	show fields from `func`
+PHONE_REDACTEDT18:PORT:PORT.729611Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `func`
+PHONE_REDACTEDT18:PORT:PORT.729826Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.729952Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.730070Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.730211Z	   56 Query	SHOW TRIGGERS LIKE 'func'
+PHONE_REDACTEDT18:PORT:PORT.731562Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.731703Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.731853Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'func'
+PHONE_REDACTEDT18:PORT:PORT.732335Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.732456Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.732636Z	   56 Query	show table status like 'global\_grants'
+PHONE_REDACTEDT18:PORT:PORT.735451Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.735596Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.735700Z	   56 Query	show create table `global_grants`
+PHONE_REDACTEDT18:PORT:PORT.736827Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.737018Z	   56 Query	show fields from `global_grants`
+PHONE_REDACTEDT18:PORT:PORT.738975Z	   56 Query	show fields from `global_grants`
+PHONE_REDACTEDT18:PORT:PORT.740835Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `global_grants`
+PHONE_REDACTEDT18:PORT:PORT.741302Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.741416Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.741565Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.741711Z	   56 Query	SHOW TRIGGERS LIKE 'global\_grants'
+PHONE_REDACTEDT18:PORT:PORT.743116Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.743262Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.743414Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'global_grants'
+PHONE_REDACTEDT18:PORT:PORT.743861Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.743955Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.744112Z	   56 Query	show table status like 'gtid\_executed'
+PHONE_REDACTEDT18:PORT:PORT.747038Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.747210Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.747321Z	   56 Query	show create table `gtid_executed`
+PHONE_REDACTEDT18:PORT:PORT.748490Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.748697Z	   56 Query	show fields from `gtid_executed`
+PHONE_REDACTEDT18:PORT:PORT.750679Z	   56 Query	show fields from `gtid_executed`
+PHONE_REDACTEDT18:PORT:PORT.752406Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.752574Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.752702Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.752859Z	   56 Query	SHOW TRIGGERS LIKE 'gtid\_executed'
+PHONE_REDACTEDT18:PORT:PORT.754218Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.754359Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.754531Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'gtid_executed'
+PHONE_REDACTEDT18:PORT:PORT.754963Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.755057Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.755192Z	   56 Query	show table status like 'help\_category'
+PHONE_REDACTEDT18:PORT:PORT.760075Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.760233Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.760337Z	   56 Query	show create table `help_category`
+PHONE_REDACTEDT18:PORT:PORT.760798Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.760952Z	   56 Query	show fields from `help_category`
+PHONE_REDACTEDT18:PORT:PORT.762880Z	   56 Query	show fields from `help_category`
+PHONE_REDACTEDT18:PORT:PORT.764646Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `help_category`
+PHONE_REDACTEDT18:PORT:PORT.765131Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.765262Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.765383Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.765546Z	   56 Query	SHOW TRIGGERS LIKE 'help\_category'
+PHONE_REDACTEDT18:PORT:PORT.766929Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.767078Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.767243Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'help_category'
+PHONE_REDACTEDT18:PORT:PORT.767743Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.767854Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.768002Z	   56 Query	show table status like 'help\_keyword'
+PHONE_REDACTEDT18:PORT:PORT.775568Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.775743Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.775856Z	   56 Query	show create table `help_keyword`
+PHONE_REDACTEDT18:PORT:PORT.776299Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.776471Z	   56 Query	show fields from `help_keyword`
+PHONE_REDACTEDT18:PORT:PORT.778385Z	   56 Query	show fields from `help_keyword`
+PHONE_REDACTEDT18:PORT:PORT.780120Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `help_keyword`
+PHONE_REDACTEDT18:PORT:PORT.782932Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.783057Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.783188Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.783347Z	   56 Query	SHOW TRIGGERS LIKE 'help\_keyword'
+PHONE_REDACTEDT18:PORT:PORT.784840Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.784992Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.785152Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'help_keyword'
+PHONE_REDACTEDT18:PORT:PORT.785604Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.785703Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.785843Z	   56 Query	show table status like 'help\_relation'
+PHONE_REDACTEDT18:PORT:PORT.791085Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.791236Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.791341Z	   56 Query	show create table `help_relation`
+PHONE_REDACTEDT18:PORT:PORT.791746Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.791896Z	   56 Query	show fields from `help_relation`
+PHONE_REDACTEDT18:PORT:PORT.793742Z	   56 Query	show fields from `help_relation`
+PHONE_REDACTEDT18:PORT:PORT.795493Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `help_relation`
+PHONE_REDACTEDT18:PORT:PORT.798243Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.798366Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.798509Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.798674Z	   56 Query	SHOW TRIGGERS LIKE 'help\_relation'
+PHONE_REDACTEDT18:PORT:PORT.800151Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.800295Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.800462Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'help_relation'
+PHONE_REDACTEDT18:PORT:PORT.800860Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.800954Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.801090Z	   56 Query	show table status like 'help\_topic'
+PHONE_REDACTEDT18:PORT:PORT.809572Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.809724Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.809828Z	   56 Query	show create table `help_topic`
+PHONE_REDACTEDT18:PORT:PORT.810321Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.810485Z	   56 Query	show fields from `help_topic`
+PHONE_REDACTEDT18:PORT:PORT.812488Z	   56 Query	show fields from `help_topic`
+PHONE_REDACTEDT18:PORT:PORT.814303Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `help_topic`
+PHONE_REDACTEDT18:PORT:PORT.849043Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.849298Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.849495Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.849752Z	   56 Query	SHOW TRIGGERS LIKE 'help\_topic'
+PHONE_REDACTEDT18:PORT:PORT.851789Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.851992Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.852207Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'help_topic'
+PHONE_REDACTEDT18:PORT:PORT.852774Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.852939Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.853128Z	   56 Query	show table status like 'innodb\_index\_stats'
+PHONE_REDACTEDT18:PORT:PORT.857068Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.857314Z	   56 Query	show fields from `innodb_index_stats`
+PHONE_REDACTEDT18:PORT:PORT.861292Z	   56 Query	show fields from `innodb_index_stats`
+PHONE_REDACTEDT18:PORT:PORT.863301Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `innodb_index_stats`
+PHONE_REDACTEDT18:PORT:PORT.864604Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.864726Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.864836Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.864987Z	   56 Query	SHOW TRIGGERS LIKE 'innodb\_index\_stats'
+PHONE_REDACTEDT18:PORT:PORT.866403Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.866570Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.866724Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'innodb_index_stats'
+PHONE_REDACTEDT18:PORT:PORT.867148Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.867248Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.867385Z	   56 Query	show table status like 'innodb\_table\_stats'
+PHONE_REDACTEDT18:PORT:PORT.870148Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.870332Z	   56 Query	show fields from `innodb_table_stats`
+PHONE_REDACTEDT18:PORT:PORT.873120Z	   56 Query	show fields from `innodb_table_stats`
+PHONE_REDACTEDT18:PORT:PORT.875002Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `innodb_table_stats`
+PHONE_REDACTEDT18:PORT:PORT.875611Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.875729Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.875836Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.875983Z	   56 Query	SHOW TRIGGERS LIKE 'innodb\_table\_stats'
+PHONE_REDACTEDT18:PORT:PORT.877377Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.877537Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.877696Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'innodb_table_stats'
+PHONE_REDACTEDT18:PORT:PORT.878121Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.878215Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.878350Z	   56 Query	show table status like 'ndb\_binlog\_index'
+PHONE_REDACTEDT18:PORT:PORT.883538Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.883692Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.883796Z	   56 Query	show create table `ndb_binlog_index`
+PHONE_REDACTEDT18:PORT:PORT.884319Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.884486Z	   56 Query	show fields from `ndb_binlog_index`
+PHONE_REDACTEDT18:PORT:PORT.886664Z	   56 Query	show fields from `ndb_binlog_index`
+PHONE_REDACTEDT18:PORT:PORT.888722Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `ndb_binlog_index`
+PHONE_REDACTEDT18:PORT:PORT.888981Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.889102Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.889223Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.889370Z	   56 Query	SHOW TRIGGERS LIKE 'ndb\_binlog\_index'
+PHONE_REDACTEDT18:PORT:PORT.890783Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.890930Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.891084Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'ndb_binlog_index'
+PHONE_REDACTEDT18:PORT:PORT.891517Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.891616Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.891751Z	   56 Query	show table status like 'password\_history'
+PHONE_REDACTEDT18:PORT:PORT.894488Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.894628Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.894730Z	   56 Query	show create table `password_history`
+PHONE_REDACTEDT18:PORT:PORT.895785Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.895967Z	   56 Query	show fields from `password_history`
+PHONE_REDACTEDT18:PORT:PORT.897922Z	   56 Query	show fields from `password_history`
+PHONE_REDACTEDT18:PORT:PORT.899763Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `password_history`
+PHONE_REDACTEDT18:PORT:PORT.900006Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.900117Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.900236Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.900380Z	   56 Query	SHOW TRIGGERS LIKE 'password\_history'
+PHONE_REDACTEDT18:PORT:PORT.901743Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.901888Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.902041Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'password_history'
+PHONE_REDACTEDT18:PORT:PORT.902456Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.902555Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.902687Z	   56 Query	show table status like 'plugin'
+PHONE_REDACTEDT18:PORT:PORT.905342Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.905498Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.905603Z	   56 Query	show create table `plugin`
+PHONE_REDACTEDT18:PORT:PORT.906769Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.906947Z	   56 Query	show fields from `plugin`
+PHONE_REDACTEDT18:PORT:PORT.908775Z	   56 Query	show fields from `plugin`
+PHONE_REDACTEDT18:PORT:PORT.910524Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `plugin`
+PHONE_REDACTEDT18:PORT:PORT.910741Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.910868Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.910989Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.911131Z	   56 Query	SHOW TRIGGERS LIKE 'plugin'
+PHONE_REDACTEDT18:PORT:PORT.912506Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.912649Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.912801Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'plugin'
+PHONE_REDACTEDT18:PORT:PORT.913207Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.913299Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.913443Z	   56 Query	show table status like 'procs\_priv'
+PHONE_REDACTEDT18:PORT:PORT.916106Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.916243Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.916343Z	   56 Query	show create table `procs_priv`
+PHONE_REDACTEDT18:PORT:PORT.917665Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.917854Z	   56 Query	show fields from `procs_priv`
+PHONE_REDACTEDT18:PORT:PORT.919952Z	   56 Query	show fields from `procs_priv`
+PHONE_REDACTEDT18:PORT:PORT.921955Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `procs_priv`
+PHONE_REDACTEDT18:PORT:PORT.922195Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.922324Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.922457Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.922609Z	   56 Query	SHOW TRIGGERS LIKE 'procs\_priv'
+PHONE_REDACTEDT18:PORT:PORT.923971Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.924112Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.924262Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'procs_priv'
+PHONE_REDACTEDT18:PORT:PORT.924679Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.924781Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.924918Z	   56 Query	show table status like 'proxies\_priv'
+PHONE_REDACTEDT18:PORT:PORT.927596Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.927736Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.927836Z	   56 Query	show create table `proxies_priv`
+PHONE_REDACTEDT18:PORT:PORT.929035Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.929226Z	   56 Query	show fields from `proxies_priv`
+PHONE_REDACTEDT18:PORT:PORT.931259Z	   56 Query	show fields from `proxies_priv`
+PHONE_REDACTEDT18:PORT:PORT.933225Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `proxies_priv`
+PHONE_REDACTEDT18:PORT:PORT.933529Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.933643Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.933766Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.933912Z	   56 Query	SHOW TRIGGERS LIKE 'proxies\_priv'
+PHONE_REDACTEDT18:PORT:PORT.935289Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.935442Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.935598Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'proxies_priv'
+PHONE_REDACTEDT18:PORT:PORT.935998Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.936090Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.936227Z	   56 Query	show table status like 'replication\_asynchronous\_connection\_failover'
+PHONE_REDACTEDT18:PORT:PORT.941117Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.941288Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.941393Z	   56 Query	show create table `replication_asynchronous_connection_failover`
+PHONE_REDACTEDT18:PORT:PORT.941908Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.942063Z	   56 Query	show fields from `replication_asynchronous_connection_failover`
+PHONE_REDACTEDT18:PORT:PORT.944039Z	   56 Query	show fields from `replication_asynchronous_connection_failover`
+PHONE_REDACTEDT18:PORT:PORT.945901Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `replication_asynchronous_connection_failover`
+PHONE_REDACTEDT18:PORT:PORT.946149Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.946261Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.946381Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.946539Z	   56 Query	SHOW TRIGGERS LIKE 'replication\_asynchronous\_connection\_failover'
+PHONE_REDACTEDT18:PORT:PORT.947903Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.948045Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.948197Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'replication_asynchronous_connection_failover'
+PHONE_REDACTEDT18:PORT:PORT.948643Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.948742Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.948877Z	   56 Query	show table status like 'replication\_asynchronous\_connection\_failover\_managed'
+PHONE_REDACTEDT18:PORT:PORT.953108Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.953257Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.953361Z	   56 Query	show create table `replication_asynchronous_connection_failover_managed`
+PHONE_REDACTEDT18:PORT:PORT.953809Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.953967Z	   56 Query	show fields from `replication_asynchronous_connection_failover_managed`
+PHONE_REDACTEDT18:PORT:PORT.955913Z	   56 Query	show fields from `replication_asynchronous_connection_failover_managed`
+PHONE_REDACTEDT18:PORT:PORT.957759Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `replication_asynchronous_connection_failover_managed`
+PHONE_REDACTEDT18:PORT:PORT.957986Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.958097Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.958217Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.958362Z	   56 Query	SHOW TRIGGERS LIKE 'replication\_asynchronous\_connection\_failover\_managed'
+PHONE_REDACTEDT18:PORT:PORT.959752Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.959896Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.960051Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'replication_asynchronous_connection_failover_managed'
+PHONE_REDACTEDT18:PORT:PORT.960494Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.960594Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.960729Z	   56 Query	show table status like 'replication\_group\_configuration\_version'
+PHONE_REDACTEDT18:PORT:PORT.964939Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.965087Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.965192Z	   56 Query	show create table `replication_group_configuration_version`
+PHONE_REDACTEDT18:PORT:PORT.965602Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.965752Z	   56 Query	show fields from `replication_group_configuration_version`
+PHONE_REDACTEDT18:PORT:PORT.967585Z	   56 Query	show fields from `replication_group_configuration_version`
+PHONE_REDACTEDT18:PORT:PORT.969303Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `replication_group_configuration_version`
+PHONE_REDACTEDT18:PORT:PORT.969566Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.969680Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.969803Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.969948Z	   56 Query	SHOW TRIGGERS LIKE 'replication\_group\_configuration\_version'
+PHONE_REDACTEDT18:PORT:PORT.971310Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.971470Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.971629Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'replication_group_configuration_version'
+PHONE_REDACTEDT18:PORT:PORT.972054Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.972148Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.972283Z	   56 Query	show table status like 'replication\_group\_member\_actions'
+PHONE_REDACTEDT18:PORT:PORT.976734Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.976901Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.977006Z	   56 Query	show create table `replication_group_member_actions`
+PHONE_REDACTEDT18:PORT:PORT.977492Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.977659Z	   56 Query	show fields from `replication_group_member_actions`
+PHONE_REDACTEDT18:PORT:PORT.979812Z	   56 Query	show fields from `replication_group_member_actions`
+PHONE_REDACTEDT18:PORT:PORT.981832Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `replication_group_member_actions`
+PHONE_REDACTEDT18:PORT:PORT.982132Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.982256Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.982392Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.982567Z	   56 Query	SHOW TRIGGERS LIKE 'replication\_group\_member\_actions'
+PHONE_REDACTEDT18:PORT:PORT.984039Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.984189Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.984352Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'replication_group_member_actions'
+PHONE_REDACTEDT18:PORT:PORT.984798Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.984904Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.985048Z	   56 Query	show table status like 'role\_edges'
+PHONE_REDACTEDT18:PORT:PORT.987972Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.988121Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.988231Z	   56 Query	show create table `role_edges`
+PHONE_REDACTEDT18:PORT:PORT.989468Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.989667Z	   56 Query	show fields from `role_edges`
+PHONE_REDACTEDT18:PORT:PORT.991769Z	   56 Query	show fields from `role_edges`
+PHONE_REDACTEDT18:PORT:PORT.993752Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `role_edges`
+PHONE_REDACTEDT18:PORT:PORT.994003Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.994121Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.994244Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.994398Z	   56 Query	SHOW TRIGGERS LIKE 'role\_edges'
+PHONE_REDACTEDT18:PORT:PORT.995854Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.996005Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.996165Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'role_edges'
+PHONE_REDACTEDT18:PORT:PORT.996599Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.996704Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.996848Z	   56 Query	show table status like 'server\_cost'
+PHONE_REDACTEDT18:PORT:PORT.999734Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.999905Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.000020Z	   56 Query	show create table `server_cost`
+PHONE_REDACTEDT18:PORT:PORT.001390Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.001649Z	   56 Query	show fields from `server_cost`
+PHONE_REDACTEDT18:PORT:PORT.003697Z	   56 Query	show fields from `server_cost`
+PHONE_REDACTEDT18:PORT:PORT.005665Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `server_cost`
+PHONE_REDACTEDT18:PORT:PORT.005971Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.006109Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.006235Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.006387Z	   56 Query	SHOW TRIGGERS LIKE 'server\_cost'
+PHONE_REDACTEDT18:PORT:PORT.007846Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.007996Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.008154Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'server_cost'
+PHONE_REDACTEDT18:PORT:PORT.008630Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.008737Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.008881Z	   56 Query	show table status like 'servers'
+PHONE_REDACTEDT18:PORT:PORT.011758Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.011909Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.012020Z	   56 Query	show create table `servers`
+PHONE_REDACTEDT18:PORT:PORT.013304Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.013519Z	   56 Query	show fields from `servers`
+PHONE_REDACTEDT18:PORT:PORT.015727Z	   56 Query	show fields from `servers`
+PHONE_REDACTEDT18:PORT:PORT.017785Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `servers`
+PHONE_REDACTEDT18:PORT:PORT.018034Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.018143Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.018264Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.018405Z	   56 Query	SHOW TRIGGERS LIKE 'servers'
+PHONE_REDACTEDT18:PORT:PORT.019756Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.019898Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.020048Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'servers'
+PHONE_REDACTEDT18:PORT:PORT.020488Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.020586Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.020722Z	   56 Query	show table status like 'slave\_master\_info'
+PHONE_REDACTEDT18:PORT:PORT.023437Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.023578Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.023678Z	   56 Query	show create table `slave_master_info`
+PHONE_REDACTEDT18:PORT:PORT.025462Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.025687Z	   56 Query	show fields from `slave_master_info`
+PHONE_REDACTEDT18:PORT:PORT.028600Z	   56 Query	show fields from `slave_master_info`
+PHONE_REDACTEDT18:PORT:PORT.031316Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.031473Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.031606Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.031764Z	   56 Query	SHOW TRIGGERS LIKE 'slave\_master\_info'
+PHONE_REDACTEDT18:PORT:PORT.033154Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.033298Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.033467Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'slave_master_info'
+PHONE_REDACTEDT18:PORT:PORT.033878Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.033971Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.034105Z	   56 Query	show table status like 'slave\_relay\_log\_info'
+PHONE_REDACTEDT18:PORT:PORT.036796Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.036940Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.037042Z	   56 Query	show create table `slave_relay_log_info`
+PHONE_REDACTEDT18:PORT:PORT.038466Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.038651Z	   56 Query	show fields from `slave_relay_log_info`
+PHONE_REDACTEDT18:PORT:PORT.040941Z	   56 Query	show fields from `slave_relay_log_info`
+PHONE_REDACTEDT18:PORT:PORT.043118Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.043258Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.043386Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.043553Z	   56 Query	SHOW TRIGGERS LIKE 'slave\_relay\_log\_info'
+PHONE_REDACTEDT18:PORT:PORT.044903Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.045073Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.045225Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'slave_relay_log_info'
+PHONE_REDACTEDT18:PORT:PORT.045694Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.045795Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.045933Z	   56 Query	show table status like 'slave\_worker\_info'
+PHONE_REDACTEDT18:PORT:PORT.048630Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.048768Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.048869Z	   56 Query	show create table `slave_worker_info`
+PHONE_REDACTEDT18:PORT:PORT.050189Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.050453Z	   56 Query	show fields from `slave_worker_info`
+PHONE_REDACTEDT18:PORT:PORT.052727Z	   56 Query	show fields from `slave_worker_info`
+PHONE_REDACTEDT18:PORT:PORT.054890Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `slave_worker_info`
+PHONE_REDACTEDT18:PORT:PORT.055132Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.055257Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.055378Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.055537Z	   56 Query	SHOW TRIGGERS LIKE 'slave\_worker\_info'
+PHONE_REDACTEDT18:PORT:PORT.056892Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.057033Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.057185Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'slave_worker_info'
+PHONE_REDACTEDT18:PORT:PORT.057606Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.057717Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.057865Z	   56 Query	show table status like 'tables\_priv'
+PHONE_REDACTEDT18:PORT:PORT.060767Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.060920Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.061031Z	   56 Query	show create table `tables_priv`
+PHONE_REDACTEDT18:PORT:PORT.062444Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.062666Z	   56 Query	show fields from `tables_priv`
+PHONE_REDACTEDT18:PORT:PORT.064911Z	   56 Query	show fields from `tables_priv`
+PHONE_REDACTEDT18:PORT:PORT.067112Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `tables_priv`
+PHONE_REDACTEDT18:PORT:PORT.067393Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.067537Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.067682Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.067866Z	   56 Query	SHOW TRIGGERS LIKE 'tables\_priv'
+PHONE_REDACTEDT18:PORT:PORT.069251Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.069395Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.069564Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'tables_priv'
+PHONE_REDACTEDT18:PORT:PORT.069967Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.070059Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.070193Z	   56 Query	show table status like 'time\_zone'
+PHONE_REDACTEDT18:PORT:PORT.072855Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.073010Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.073110Z	   56 Query	show create table `time_zone`
+PHONE_REDACTEDT18:PORT:PORT.074157Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.074355Z	   56 Query	show fields from `time_zone`
+PHONE_REDACTEDT18:PORT:PORT.076172Z	   56 Query	show fields from `time_zone`
+PHONE_REDACTEDT18:PORT:PORT.077928Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `time_zone`
+PHONE_REDACTEDT18:PORT:PORT.078135Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.078258Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.078376Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.078534Z	   56 Query	SHOW TRIGGERS LIKE 'time\_zone'
+PHONE_REDACTEDT18:PORT:PORT.079887Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.080030Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.080180Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'time_zone'
+PHONE_REDACTEDT18:PORT:PORT.080592Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.080688Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.080823Z	   56 Query	show table status like 'time\_zone\_leap\_second'
+PHONE_REDACTEDT18:PORT:PORT.083528Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.083678Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.083781Z	   56 Query	show create table `time_zone_leap_second`
+PHONE_REDACTEDT18:PORT:PORT.084797Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.084977Z	   56 Query	show fields from `time_zone_leap_second`
+PHONE_REDACTEDT18:PORT:PORT.086812Z	   56 Query	show fields from `time_zone_leap_second`
+PHONE_REDACTEDT18:PORT:PORT.088532Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `time_zone_leap_second`
+PHONE_REDACTEDT18:PORT:PORT.088735Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.088860Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.088978Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.089121Z	   56 Query	SHOW TRIGGERS LIKE 'time\_zone\_leap\_second'
+PHONE_REDACTEDT18:PORT:PORT.090452Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.090591Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.090741Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'time_zone_leap_second'
+PHONE_REDACTEDT18:PORT:PORT.091172Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.091266Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.091401Z	   56 Query	show table status like 'time\_zone\_name'
+PHONE_REDACTEDT18:PORT:PORT.094089Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.094223Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.094322Z	   56 Query	show create table `time_zone_name`
+PHONE_REDACTEDT18:PORT:PORT.095407Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.095621Z	   56 Query	show fields from `time_zone_name`
+PHONE_REDACTEDT18:PORT:PORT.097454Z	   56 Query	show fields from `time_zone_name`
+PHONE_REDACTEDT18:PORT:PORT.099242Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `time_zone_name`
+PHONE_REDACTEDT18:PORT:PORT.099487Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.099605Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.099729Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.099880Z	   56 Query	SHOW TRIGGERS LIKE 'time\_zone\_name'
+PHONE_REDACTEDT18:PORT:PORT.101308Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.101468Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.101637Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'time_zone_name'
+PHONE_REDACTEDT18:PORT:PORT.102087Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.102188Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.102333Z	   56 Query	show table status like 'time\_zone\_transition'
+PHONE_REDACTEDT18:PORT:PORT.105266Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.105412Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.105539Z	   56 Query	show create table `time_zone_transition`
+PHONE_REDACTEDT18:PORT:PORT.106660Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.106852Z	   56 Query	show fields from `time_zone_transition`
+PHONE_REDACTEDT18:PORT:PORT.108762Z	   56 Query	show fields from `time_zone_transition`
+PHONE_REDACTEDT18:PORT:PORT.110540Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `time_zone_transition`
+PHONE_REDACTEDT18:PORT:PORT.110761Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.110889Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.111007Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.111148Z	   56 Query	SHOW TRIGGERS LIKE 'time\_zone\_transition'
+PHONE_REDACTEDT18:PORT:PORT.112534Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.112685Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.112839Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'time_zone_transition'
+PHONE_REDACTEDT18:PORT:PORT.113268Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.113361Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.113513Z	   56 Query	show table status like 'time\_zone\_transition\_type'
+PHONE_REDACTEDT18:PORT:PORT.116236Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.116374Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.116486Z	   56 Query	show create table `time_zone_transition_type`
+PHONE_REDACTEDT18:PORT:PORT.117613Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.117814Z	   56 Query	show fields from `time_zone_transition_type`
+PHONE_REDACTEDT18:PORT:PORT.119847Z	   56 Query	show fields from `time_zone_transition_type`
+PHONE_REDACTEDT18:PORT:PORT.121785Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `time_zone_transition_type`
+PHONE_REDACTEDT18:PORT:PORT.122020Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.122136Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.122264Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.122415Z	   56 Query	SHOW TRIGGERS LIKE 'time\_zone\_transition\_type'
+PHONE_REDACTEDT18:PORT:PORT.123875Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.124027Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.124190Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'time_zone_transition_type'
+PHONE_REDACTEDT18:PORT:PORT.124629Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.124733Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.124875Z	   56 Query	show table status like 'user'
+PHONE_REDACTEDT18:PORT:PORT.127740Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.127887Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.127987Z	   56 Query	show create table `user`
+PHONE_REDACTEDT18:PORT:PORT.130753Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.131010Z	   56 Query	show fields from `user`
+PHONE_REDACTEDT18:PORT:PORT.134562Z	   56 Query	show fields from `user`
+PHONE_REDACTEDT18:PORT:PORT.137958Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `user`
+PHONE_REDACTEDT18:PORT:PORT.138554Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.138688Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.138814Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.138970Z	   56 Query	SHOW TRIGGERS LIKE 'user'
+PHONE_REDACTEDT18:PORT:PORT.140358Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.140512Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.140694Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'mysql' AND TABLE_NAME = 'user'
+PHONE_REDACTEDT18:PORT:PORT.141121Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.141214Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.141301Z	   56 Query	RELEASE SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.141411Z	   56 Query	show events
+PHONE_REDACTEDT18:PORT:PORT.145865Z	   56 Query	use `mysql`
+PHONE_REDACTEDT18:PORT:PORT.146050Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.146175Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.146323Z	   56 Query	SHOW FUNCTION STATUS WHERE Db = 'mysql'
+PHONE_REDACTEDT18:PORT:PORT.155626Z	   56 Query	SHOW PROCEDURE STATUS WHERE Db = 'mysql'
+PHONE_REDACTEDT18:PORT:PORT.157120Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.157324Z	   56 Query	show table status like 'general\_log'
+PHONE_REDACTEDT18:PORT:PORT.161563Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.161702Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.161809Z	   56 Query	show create table `general_log`
+PHONE_REDACTEDT18:PORT:PORT.162023Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.162171Z	   56 Query	show fields from `general_log`
+PHONE_REDACTEDT18:PORT:PORT.164177Z	   56 Query	show fields from `general_log`
+PHONE_REDACTEDT18:PORT:PORT.166029Z	   56 Query	show table status like 'slow\_log'
+PHONE_REDACTEDT18:PORT:PORT.170270Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.170441Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.170552Z	   56 Query	show create table `slow_log`
+PHONE_REDACTEDT18:PORT:PORT.170780Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.170928Z	   56 Query	show fields from `slow_log`
+PHONE_REDACTEDT18:PORT:PORT.173122Z	   56 Query	show fields from `slow_log`
+PHONE_REDACTEDT18:PORT:PORT.175254Z	   56 Init DB	event_outreach_ai
+PHONE_REDACTEDT18:PORT:PORT.175398Z	   56 Query	SHOW CREATE DATABASE IF NOT EXISTS `event_outreach_ai`
+PHONE_REDACTEDT18:PORT:PORT.175538Z	   56 Query	SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.175654Z	   56 Query	show tables
+PHONE_REDACTEDT18:PORT:PORT.177396Z	   56 Query	show table status like 'enrichment\_jobs'
+PHONE_REDACTEDT18:PORT:PORT.179527Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.179688Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.179795Z	   56 Query	show create table `enrichment_jobs`
+PHONE_REDACTEDT18:PORT:PORT.182669Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.182891Z	   56 Query	show fields from `enrichment_jobs`
+PHONE_REDACTEDT18:PORT:PORT.185087Z	   56 Query	show fields from `enrichment_jobs`
+PHONE_REDACTEDT18:PORT:PORT.187132Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `enrichment_jobs`
+PHONE_REDACTEDT18:PORT:PORT.190608Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.190760Z	   56 Query	use `event_outreach_ai`
+PHONE_REDACTEDT18:PORT:PORT.190903Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.191076Z	   56 Query	SHOW TRIGGERS LIKE 'enrichment\_jobs'
+PHONE_REDACTEDT18:PORT:PORT.192660Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.192817Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.192981Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'event_outreach_ai' AND TABLE_NAME = 'enrichment_jobs'
+PHONE_REDACTEDT18:PORT:PORT.193441Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.193550Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.193693Z	   56 Query	show table status like 'lead\_assignments'
+PHONE_REDACTEDT18:PORT:PORT.195930Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.196071Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.196206Z	   56 Query	show create table `lead_assignments`
+PHONE_REDACTEDT18:PORT:PORT.198670Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.198877Z	   56 Query	show fields from `lead_assignments`
+PHONE_REDACTEDT18:PORT:PORT.200995Z	   56 Query	show fields from `lead_assignments`
+PHONE_REDACTEDT18:PORT:PORT.203053Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `lead_assignments`
+PHONE_REDACTEDT18:PORT:PORT.204304Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.204464Z	   56 Query	use `event_outreach_ai`
+PHONE_REDACTEDT18:PORT:PORT.204619Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.204799Z	   56 Query	SHOW TRIGGERS LIKE 'lead\_assignments'
+PHONE_REDACTEDT18:PORT:PORT.206387Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.206548Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.206715Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'event_outreach_ai' AND TABLE_NAME = 'lead_assignments'
+PHONE_REDACTEDT18:PORT:PORT.207160Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.207261Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.207403Z	   56 Query	show table status like 'outreach\_messages'
+PHONE_REDACTEDT18:PORT:PORT.209628Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.209770Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.209877Z	   56 Query	show create table `outreach_messages`
+PHONE_REDACTEDT18:PORT:PORT.212923Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.213160Z	   56 Query	show fields from `outreach_messages`
+PHONE_REDACTEDT18:PORT:PORT.215492Z	   56 Query	show fields from `outreach_messages`
+PHONE_REDACTEDT18:PORT:PORT.217666Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `outreach_messages`
+PHONE_REDACTEDT18:PORT:PORT.219491Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.219622Z	   56 Query	use `event_outreach_ai`
+PHONE_REDACTEDT18:PORT:PORT.219763Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.219934Z	   56 Query	SHOW TRIGGERS LIKE 'outreach\_messages'
+PHONE_REDACTEDT18:PORT:PORT.221505Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.221661Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.221825Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'event_outreach_ai' AND TABLE_NAME = 'outreach_messages'
+PHONE_REDACTEDT18:PORT:PORT.222275Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.222377Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.222542Z	   56 Query	show table status like 'outreach\_status'
+PHONE_REDACTEDT18:PORT:PORT.224780Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.224926Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.225034Z	   56 Query	show create table `outreach_status`
+PHONE_REDACTEDT18:PORT:PORT.227114Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.227345Z	   56 Query	show fields from `outreach_status`
+PHONE_REDACTEDT18:PORT:PORT.229534Z	   56 Query	show fields from `outreach_status`
+PHONE_REDACTEDT18:PORT:PORT.231744Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `outreach_status`
+PHONE_REDACTEDT18:PORT:PORT.233022Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.233158Z	   56 Query	use `event_outreach_ai`
+PHONE_REDACTEDT18:PORT:PORT.233299Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.233485Z	   56 Query	SHOW TRIGGERS LIKE 'outreach\_status'
+PHONE_REDACTEDT18:PORT:PORT.235063Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.235216Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.235381Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'event_outreach_ai' AND TABLE_NAME = 'outreach_status'
+PHONE_REDACTEDT18:PORT:PORT.235856Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.235963Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.236108Z	   56 Query	show table status like 'speaker\_profiles'
+PHONE_REDACTEDT18:PORT:PORT.238353Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.238514Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.238626Z	   56 Query	show create table `speaker_profiles`
+PHONE_REDACTEDT18:PORT:PORT.241587Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.241838Z	   56 Query	show fields from `speaker_profiles`
+PHONE_REDACTEDT18:PORT:PORT.244479Z	   56 Query	show fields from `speaker_profiles`
+PHONE_REDACTEDT18:PORT:PORT.246954Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `speaker_profiles`
+PHONE_REDACTEDT18:PORT:PORT.248528Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.248665Z	   56 Query	use `event_outreach_ai`
+PHONE_REDACTEDT18:PORT:PORT.248810Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.249010Z	   56 Query	SHOW TRIGGERS LIKE 'speaker\_profiles'
+PHONE_REDACTEDT18:PORT:PORT.250807Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.251003Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.251168Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'event_outreach_ai' AND TABLE_NAME = 'speaker_profiles'
+PHONE_REDACTEDT18:PORT:PORT.251618Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.251733Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.251879Z	   56 Query	show table status like 'speaker\_raw\_map'
+PHONE_REDACTEDT18:PORT:PORT.254176Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.254343Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.254466Z	   56 Query	show create table `speaker_raw_map`
+PHONE_REDACTEDT18:PORT:PORT.256981Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.257198Z	   56 Query	show fields from `speaker_raw_map`
+PHONE_REDACTEDT18:PORT:PORT.259312Z	   56 Query	show fields from `speaker_raw_map`
+PHONE_REDACTEDT18:PORT:PORT.261288Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `speaker_raw_map`
+PHONE_REDACTEDT18:PORT:PORT.263208Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.263339Z	   56 Query	use `event_outreach_ai`
+PHONE_REDACTEDT18:PORT:PORT.263492Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.263670Z	   56 Query	SHOW TRIGGERS LIKE 'speaker\_raw\_map'
+PHONE_REDACTEDT18:PORT:PORT.265231Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.265387Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.265564Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'event_outreach_ai' AND TABLE_NAME = 'speaker_raw_map'
+PHONE_REDACTEDT18:PORT:PORT.266029Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.266132Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.266277Z	   56 Query	show table status like 'speakers'
+PHONE_REDACTEDT18:PORT:PORT.268523Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.268667Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.268777Z	   56 Query	show create table `speakers`
+PHONE_REDACTEDT18:PORT:PORT.276563Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.276803Z	   56 Query	show fields from `speakers`
+PHONE_REDACTEDT18:PORT:PORT.279138Z	   56 Query	show fields from `speakers`
+PHONE_REDACTEDT18:PORT:PORT.281332Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `speakers`
+PHONE_REDACTEDT18:PORT:PORT.284813Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.284965Z	   56 Query	use `event_outreach_ai`
+PHONE_REDACTEDT18:PORT:PORT.285144Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.285334Z	   56 Query	SHOW TRIGGERS LIKE 'speakers'
+PHONE_REDACTEDT18:PORT:PORT.286957Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.287117Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.287284Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'event_outreach_ai' AND TABLE_NAME = 'speakers'
+PHONE_REDACTEDT18:PORT:PORT.287738Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.287846Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.287991Z	   56 Query	show table status like 'speakers\_raw'
+PHONE_REDACTEDT18:PORT:PORT.290236Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.290379Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.290499Z	   56 Query	show create table `speakers_raw`
+PHONE_REDACTEDT18:PORT:PORT.293972Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.294199Z	   56 Query	show fields from `speakers_raw`
+PHONE_REDACTEDT18:PORT:PORT.296488Z	   56 Query	show fields from `speakers_raw`
+PHONE_REDACTEDT18:PORT:PORT.298622Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `speakers_raw`
+PHONE_REDACTEDT18:PORT:PORT.302437Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.302575Z	   56 Query	use `event_outreach_ai`
+PHONE_REDACTEDT18:PORT:PORT.302727Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.302908Z	   56 Query	SHOW TRIGGERS LIKE 'speakers\_raw'
+PHONE_REDACTEDT18:PORT:PORT.304510Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.304668Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.304832Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'event_outreach_ai' AND TABLE_NAME = 'speakers_raw'
+PHONE_REDACTEDT18:PORT:PORT.305282Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.305383Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.305488Z	   56 Query	RELEASE SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.305613Z	   56 Query	show events
+PHONE_REDACTEDT18:PORT:PORT.306533Z	   56 Query	use `event_outreach_ai`
+PHONE_REDACTEDT18:PORT:PORT.306692Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.306813Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.306951Z	   56 Query	SHOW FUNCTION STATUS WHERE Db = 'event_outreach_ai'
+PHONE_REDACTEDT18:PORT:PORT.308461Z	   56 Query	SHOW PROCEDURE STATUS WHERE Db = 'event_outreach_ai'
+PHONE_REDACTEDT18:PORT:PORT.309858Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.310021Z	   56 Init DB	lead_lab
+PHONE_REDACTEDT18:PORT:PORT.310106Z	   56 Query	SHOW CREATE DATABASE IF NOT EXISTS `lead_lab`
+PHONE_REDACTEDT18:PORT:PORT.310225Z	   56 Query	SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.310336Z	   56 Query	show tables
+PHONE_REDACTEDT18:PORT:PORT.312120Z	   56 Query	show table status like 'daily\_analysis\_reports'
+PHONE_REDACTEDT18:PORT:PORT.314312Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.314474Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.314588Z	   56 Query	show create table `daily_analysis_reports`
+PHONE_REDACTEDT18:PORT:PORT.317184Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.317414Z	   56 Query	show fields from `daily_analysis_reports`
+PHONE_REDACTEDT18:PORT:PORT.319635Z	   56 Query	show fields from `daily_analysis_reports`
+PHONE_REDACTEDT18:PORT:PORT.321688Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `daily_analysis_reports`
+PHONE_REDACTEDT18:PORT:PORT.325237Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.325388Z	   56 Query	use `lead_lab`
+PHONE_REDACTEDT18:PORT:PORT.325543Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.325731Z	   56 Query	SHOW TRIGGERS LIKE 'daily\_analysis\_reports'
+PHONE_REDACTEDT18:PORT:PORT.327228Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.327374Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.327547Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'lead_lab' AND TABLE_NAME = 'daily_analysis_reports'
+PHONE_REDACTEDT18:PORT:PORT.327981Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.328077Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.328229Z	   56 Query	show table status like 'lead\_submission\_logs'
+PHONE_REDACTEDT18:PORT:PORT.330416Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.330598Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.330709Z	   56 Query	show create table `lead_submission_logs`
+PHONE_REDACTEDT18:PORT:PORT.333220Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.333451Z	   56 Query	show fields from `lead_submission_logs`
+PHONE_REDACTEDT18:PORT:PORT.335796Z	   56 Query	show fields from `lead_submission_logs`
+PHONE_REDACTEDT18:PORT:PORT.338066Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `lead_submission_logs`
+PHONE_REDACTEDT18:PORT:PORT.362856Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.363010Z	   56 Query	use `lead_lab`
+PHONE_REDACTEDT18:PORT:PORT.363192Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.363385Z	   56 Query	SHOW TRIGGERS LIKE 'lead\_submission\_logs'
+PHONE_REDACTEDT18:PORT:PORT.364954Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.365103Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.365255Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'lead_lab' AND TABLE_NAME = 'lead_submission_logs'
+PHONE_REDACTEDT18:PORT:PORT.365680Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.365776Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.365910Z	   56 Query	show table status like 'leads'
+PHONE_REDACTEDT18:PORT:PORT.368041Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.368184Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.368287Z	   56 Query	show create table `leads`
+PHONE_REDACTEDT18:PORT:PORT.370842Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.371053Z	   56 Query	show fields from `leads`
+PHONE_REDACTEDT18:PORT:PORT.373123Z	   56 Query	show fields from `leads`
+PHONE_REDACTEDT18:PORT:PORT.375133Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `leads`
+PHONE_REDACTEDT18:PORT:PORT.393182Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.393339Z	   56 Query	use `lead_lab`
+PHONE_REDACTEDT18:PORT:PORT.393503Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.393697Z	   56 Query	SHOW TRIGGERS LIKE 'leads'
+PHONE_REDACTEDT18:PORT:PORT.395252Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.395401Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.395568Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'lead_lab' AND TABLE_NAME = 'leads'
+PHONE_REDACTEDT18:PORT:PORT.396008Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.396102Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.396238Z	   56 Query	show table status like 'page\_visit\_logs'
+PHONE_REDACTEDT18:PORT:PORT.398307Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.398464Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.398571Z	   56 Query	show create table `page_visit_logs`
+PHONE_REDACTEDT18:PORT:PORT.400893Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.401143Z	   56 Query	show fields from `page_visit_logs`
+PHONE_REDACTEDT18:PORT:PORT.403129Z	   56 Query	show fields from `page_visit_logs`
+PHONE_REDACTEDT18:PORT:PORT.405028Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `page_visit_logs`
+PHONE_REDACTEDT18:PORT:PORT.411181Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.411321Z	   56 Query	use `lead_lab`
+PHONE_REDACTEDT18:PORT:PORT.411472Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.411652Z	   56 Query	SHOW TRIGGERS LIKE 'page\_visit\_logs'
+PHONE_REDACTEDT18:PORT:PORT.413174Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.413338Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.413510Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'lead_lab' AND TABLE_NAME = 'page_visit_logs'
+PHONE_REDACTEDT18:PORT:PORT.413973Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.414067Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.414204Z	   56 Query	show table status like 'user\_rate\_limits'
+PHONE_REDACTEDT18:PORT:PORT.416315Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.416471Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.416578Z	   56 Query	show create table `user_rate_limits`
+PHONE_REDACTEDT18:PORT:PORT.418981Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.419186Z	   56 Query	show fields from `user_rate_limits`
+PHONE_REDACTEDT18:PORT:PORT.421360Z	   56 Query	show fields from `user_rate_limits`
+PHONE_REDACTEDT18:PORT:PORT.423535Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `user_rate_limits`
+PHONE_REDACTEDT18:PORT:PORT.424799Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.424940Z	   56 Query	use `lead_lab`
+PHONE_REDACTEDT18:PORT:PORT.425076Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.425234Z	   56 Query	SHOW TRIGGERS LIKE 'user\_rate\_limits'
+PHONE_REDACTEDT18:PORT:PORT.426715Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.426863Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.427023Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'lead_lab' AND TABLE_NAME = 'user_rate_limits'
+PHONE_REDACTEDT18:PORT:PORT.427470Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.427572Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.427707Z	   56 Query	show table status like 'users'
+PHONE_REDACTEDT18:PORT:PORT.429774Z	   56 Query	SET SQL_QUOTE_SHOW_CREATE=1
+PHONE_REDACTEDT18:PORT:PORT.429910Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.430012Z	   56 Query	show create table `users`
+PHONE_REDACTEDT18:PORT:PORT.433583Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.433802Z	   56 Query	show fields from `users`
+PHONE_REDACTEDT18:PORT:PORT.435788Z	   56 Query	show fields from `users`
+PHONE_REDACTEDT18:PORT:PORT.437616Z	   56 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `users`
+PHONE_REDACTEDT18:PORT:PORT.438904Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.439024Z	   56 Query	use `lead_lab`
+PHONE_REDACTEDT18:PORT:PORT.439160Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.439314Z	   56 Query	SHOW TRIGGERS LIKE 'users'
+PHONE_REDACTEDT18:PORT:PORT.440778Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.440921Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.441070Z	   56 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'lead_lab' AND TABLE_NAME = 'users'
+PHONE_REDACTEDT18:PORT:PORT.441483Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.441606Z	   56 Query	ROLLBACK TO SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.441693Z	   56 Query	RELEASE SAVEPOINT sp
+PHONE_REDACTEDT18:PORT:PORT.441801Z	   56 Query	show events
+PHONE_REDACTEDT18:PORT:PORT.442677Z	   56 Query	use `lead_lab`
+PHONE_REDACTEDT18:PORT:PORT.442836Z	   56 Query	select @@collation_database
+PHONE_REDACTEDT18:PORT:PORT.442960Z	   56 Query	SET SESSION character_set_results = 'binary'
+PHONE_REDACTEDT18:PORT:PORT.443116Z	   56 Query	SHOW FUNCTION STATUS WHERE Db = 'lead_lab'
+PHONE_REDACTEDT18:PORT:PORT.444611Z	   56 Query	SHOW PROCEDURE STATUS WHERE Db = 'lead_lab'
+PHONE_REDACTEDT18:PORT:PORT.445982Z	   56 Query	SET SESSION character_set_results = 'utf8mb4'
+PHONE_REDACTEDT18:PORT:PORT.455809Z	   56 Quit	
