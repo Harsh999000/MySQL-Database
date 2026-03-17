@@ -1,0 +1,30 @@
+PHONE_REDACTEDT19:PORT:PORT.412405Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.4.0).
+PHONE_REDACTEDT19:PORT:PORT.454530Z 0 [System] [MY-010910] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: Shutdown complete (mysqld 8.4.0)  MySQL Community Server - GPL.
+PHONE_REDACTEDT19:PORT:PORT.454596Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+PHONE_REDACTEDT10:PORT:PORT.098159Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+PHONE_REDACTEDT10:PORT:PORT.236109Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+PHONE_REDACTEDT10:PORT:PORT.237259Z 0 [System] [MY-010116] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld (mysqld 8.4.0) starting as process 1353
+PHONE_REDACTEDT10:PORT:PORT.315787Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+PHONE_REDACTEDT10:PORT:PORT.778486Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+PHONE_REDACTEDT10:PORT:PORT.358915Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+PHONE_REDACTEDT10:PORT:PORT.359031Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+PHONE_REDACTEDT10:PORT:PORT.420079Z 0 [System] [MY-010931] [Server] /db1/myserver/mysql/mysql_files/mysql/bin/mysqld: ready for connections. Version: '8.4.0'  socket: '/db1/myserver/mysql/run/mysql.sock'  port: 3310  MySQL Community Server - GPL.
+PHONE_REDACTEDT10:PORT:PORT.690646Z 8 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+PHONE_REDACTEDT10:PORT:PORT.691327Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /tmp/mysqlx.sock
+PHONE_REDACTEDT10:PORT:PORT.629592Z 9 [Warning] [MY-010058] [Server] Hostname 'harsh-server' does not resolve to 'xxx.xxx.xxx.xxx'.
+PHONE_REDACTEDT11:PORT:PORT.581359Z 14 [Warning] [MY-010056] [Server] Host name 'DESKTOP-1PIC86U' could not be resolved: Temporary failure in name resolution
+PHONE_REDACTEDT11:PORT:PORT.311380Z 15 [Warning] [MY-010056] [Server] Host name 'DESKTOP-1PIC86U' could not be resolved: Temporary failure in name resolution
+PHONE_REDACTEDT11:PORT:PORT.171286Z 16 [Warning] [MY-010056] [Server] Host name 'DESKTOP-1PIC86U' could not be resolved: Temporary failure in name resolution
+PHONE_REDACTEDT11:PORT:PORT.351412Z 17 [Warning] [MY-010056] [Server] Host name 'DESKTOP-1PIC86U' could not be resolved: Temporary failure in name resolution
+PHONE_REDACTEDT11:PORT:PORT.653864Z 18 [Warning] [MY-010056] [Server] Host name 'DESKTOP-1PIC86U' could not be resolved: Temporary failure in name resolution
+PHONE_REDACTEDT11:PORT:PORT.280590Z 19 [Warning] [MY-010056] [Server] Host name 'DESKTOP-1PIC86U' could not be resolved: Temporary failure in name resolution
+PHONE_REDACTEDT11:PORT:PORT.434358Z 20 [Warning] [MY-010056] [Server] Host name 'DESKTOP-1PIC86U' could not be resolved: Temporary failure in name resolution
+PHONE_REDACTEDT11:PORT:PORT.601647Z 21 [Warning] [MY-010056] [Server] Host name 'DESKTOP-1PIC86U' could not be resolved: Temporary failure in name resolution
+PHONE_REDACTEDT11:PORT:PORT.760399Z 22 [Warning] [MY-010056] [Server] Host name 'DESKTOP-1PIC86U' could not be resolved: Temporary failure in name resolution
+PHONE_REDACTEDT11:PORT:PORT.930256Z 23 [Warning] [MY-010056] [Server] Host name 'DESKTOP-1PIC86U' could not be resolved: Temporary failure in name resolution
+PHONE_REDACTEDT11:PORT:PORT.110339Z 24 [Warning] [MY-010056] [Server] Host name 'DESKTOP-1PIC86U' could not be resolved: Temporary failure in name resolution
+PHONE_REDACTEDT11:PORT:PORT.220295Z 25 [Warning] [MY-010056] [Server] Host name 'DESKTOP-1PIC86U' could not be resolved: Temporary failure in name resolution
+PHONE_REDACTEDT11:PORT:PORT.841515Z 26 [Warning] [MY-010056] [Server] Host name 'DESKTOP-1PIC86U' could not be resolved: Temporary failure in name resolution
+PHONE_REDACTEDT11:PORT:PORT.750821Z 27 [Warning] [MY-010056] [Server] Host name 'DESKTOP-1PIC86U' could not be resolved: Temporary failure in name resolution
+PHONE_REDACTEDT11:PORT:PORT.916772Z 28 [Warning] [MY-010056] [Server] Host name 'DESKTOP-1PIC86U' could not be resolved: Temporary failure in name resolution
+PHONE_REDACTEDT11:PORT:PORT.159809Z 29 [Warning] [MY-010056] [Server] Host name 'DESKTOP-1PIC86U' could not be resolved: Temporary failure in name resolution
